@@ -40,7 +40,7 @@
   </tr>
   <tr>
     <td bgcolor="#0d1117">🪶&nbsp;<b>editors</b></td>
-    <td bgcolor="#0d1117"><code>zedneovim</code> (primary) + <code>neovim</code> (whenever I'm bored and miss it)</td>
+    <td bgcolor="#0d1117"><code>Zed</code> (primary) + <code>neovim</code> (whenever I'm bored and miss it)</td>
   </tr>
   <tr>
     <td bgcolor="#0d1117">⚙️&nbsp;<b>runtime</b></td>
