@@ -68,7 +68,7 @@
 <p><b>I build small projects with Python (aiming to Go).</b></p>
 <p>I'm current like CLI tools, and I'm planning to build more, and I'm still learning to do so.</p>
 
-🎓 Studying [**Boot.dev**](https://www.boot.dev) &nbsp;|&nbsp; 🚀 Learn & Code
+🎓 Studying [**Boot.dev**](https://www.boot.dev) &nbsp;|&nbsp; 🚀 Code
 
 </div>
 
@@ -85,15 +85,18 @@
 <table align="center" width="100%">
   <tr>
     <td valign="top" width="50%">
-      <h3>🚀 <a href="https://github.com/tsuyoshi64/tsuyoshi-asteroid-game">tsuyoshi-asteroid-game</a></h3>
-      <blockquote>Classic Asteroids rebuilt in Python — applied some physics.</blockquote>
+      <h3><a href="https://github.com/tsuyoshi64/tsuyoshi-asteroid-game">tsuyoshi-asteroid-game</a></h3>
+      <blockquote>
+        <strong>Classic Asteroids</strong> rebuilt in Python.<br>
+        Applying some physics.
+      </blockquote>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/Pygame-00b140?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/uv-111827?style=flat-square&logo=python&logoColor=white" />
       </p>
       <details>
-        <summary><b>⚡ View Key Features</b></summary>
+        <summary><b><i>View Key Features</i></b></summary>
         <br/>
         <ul>
           <li>Real-time game loop at <b>60 FPS</b></li>
@@ -105,7 +108,7 @@
       </details>
     </td>
     <td valign="top" width="50%">
-      <h3>🤖 <a href="https://github.com/tsuyoshi64/tsuyoshi-ai">tsuyoshi-ai</a></h3>
+      <h3><a href="https://github.com/tsuyoshi64/tsuyoshi-ai">tsuyoshi-ai</a></h3>
       <blockquote>A coding agent that inspects, edits, and runs code inside a scoped directory.</blockquote>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
@@ -113,7 +116,7 @@
         <img src="https://img.shields.io/badge/Tool_Calling-ff6b6b?style=flat-square&logoColor=white" />
       </p>
       <details>
-        <summary><b>⚡ View Key Features</b></summary>
+        <summary><b><i>View Key Features</i></b></summary>
         <br/>
         <ul>
           <li>Gemini API with function/tool calling</li>
