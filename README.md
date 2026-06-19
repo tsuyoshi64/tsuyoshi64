@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:bf00ff,100:ff00ff&height=220&section=header&text=tsuyoshi64&fontSize=90&fontColor=ffffff&fontAlignY=35&desc=Python%20%7C%20Go%20%7C%20C%20%7C%20NeoVim%20%7C%20CLI%20Craftsman&descAlignY=72&descSize=20&animation=twinkling" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:bf00ff,100:ff00ff&height=220&section=header&text=tsuyoshi64&fontSize=90&fontColor=ffffff&fontAlignY=35&desc=Python%20%7C%20Go%20%7C%20C%20%7C%20NeoVim%20%7C%20CLI%20Craftsman&descAlignY=62&descSize=20&animation=twinkling" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&random=false&width=700&lines=Python+dev+--+learning+by+building;CLI+craftsman+%26+NeoVim+devotee;Exploring+Go+%26+C%2C+one+bug+at+a+time;Backend+%26+AI+engineering+--+loading;nvim+is+not+a+phase.+it%27s+a+lifestyle." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&random=false&width=700&lines=Python+dev+--+learning+by+building;CLI+%26+NeoVim+devotee;Exploring+Go+%26+C%2C+one+bug+at+a+time;Backend+%26+AI+engineering+--+loading;nvim+is+not+a+phase.+it%27s+a+lifestyle." alt="Typing SVG" />
 </div>
 
 <br/>
