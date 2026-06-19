@@ -73,6 +73,7 @@ I am building toward stronger backend and AI engineering skills by creating smal
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://shields.io" alt="NeoVim" />
   <img src="https://img.shields.io/badge/Pygame-2E7D32?style=flat-square&logo=python&logoColor=white" alt="Pygame" />
   <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini API" />
   <img src="https://img.shields.io/badge/uv-111827?style=flat-square&logo=python&logoColor=white" alt="uv" />
@@ -94,7 +95,7 @@ I am building toward stronger backend and AI engineering skills by creating smal
 
 <div align="center">
 
-Building one project at a time, improving one commit at a time.
+***Yes, I am Tsurumaru Tsuyoshi from Umamusume: Pretty Derby***
 
 </div>
 
