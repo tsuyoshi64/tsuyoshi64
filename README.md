@@ -71,7 +71,7 @@ I am building toward stronger backend and AI engineering skills by creating smal
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" height="35" alt="Python" />
-  <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" height="35" alt="NeoVim" />
+  <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=flat-square&logo=neovim&logoColor=white" height="35" alt="NeoVim" />
   <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white" height="35" alt="Gemini API" />
   <img src="https://img.shields.io/badge/uv-111827?style=flat-square&logo=python&logoColor=white" height="35" alt="uv" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" height="35" alt="Git" />
