@@ -72,7 +72,7 @@
 
 <div align="center">
 
-🎓 Studying [**Boot.dev**](https://www.boot.dev) &nbsp;|&nbsp; 🚀 Shipping code.
+🎓 Studying [**Boot.dev**](https://www.boot.dev) &nbsp;|&nbsp; 🚀 Learning how to code
 
 </div>
 
