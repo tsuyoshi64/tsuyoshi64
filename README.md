@@ -67,7 +67,7 @@
 </div>
 
 <div align="center">
-<p><b>The name I use is **Tsurumaru Tsuyoshi**, but you can call me **Tsu**</b></p>
+<p><b>The name I use is Tsurumaru Tsuyoshi, but you can call me "Tsu".</b></p>
 <p><b>I build small projects with Python code, with practical user-facing results.</b></p>
 <p>I'm current like CLI tools, and I'm planning to build more. But I'm still learning.</p>
 
