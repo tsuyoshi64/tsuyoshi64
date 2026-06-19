@@ -1,8 +1,6 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:bf00ff,100:ff00ff&height=220&section=header&text=tsuyoshi64&fontSize=90&fontColor=ffffff&fontAlignY=40&desc=Python%20%7C%20Go%20%7C%20C%20%7C%20NeoVim%20%7C%20CLI%20Craftsman&descAlignY=62&descSize=20&animation=twinkling" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,50:bf00ff,100:ff00ff&height=220&section=header&text=tsuyoshi64&fontSize=90&fontColor=ffffff&fontAlignY=35&desc=Python%20%7C%20Go%20%7C%20C%20%7C%20NeoVim%20%7C%20CLI%20Craftsman&descAlignY=72&descSize=20&animation=twinkling" width="100%" />
 </div>
-
-<br/>
 
 <br/>
 
