@@ -20,7 +20,7 @@
 </div>
 
 <div align="center">
-
+<br/>
 <table>
   <tr>
     <td align="center" colspan="2" bgcolor="#0d1117">
@@ -28,11 +28,11 @@
     </td>
   </tr>
   <tr>
-    <td bgcolor="#0d1117">🧑‍💻&nbsp;<b>user</b></td>
+    <td bgcolor="#0d1117">🧑‍💻&nbsp;<b>username</b></td>
     <td bgcolor="#0d1117"><code>tsuyoshi64</code></td>
   </tr>
   <tr>
-    <td bgcolor="#0d1117">🎯&nbsp;<b>mission</b></td>
+    <td bgcolor="#0d1117">🎯&nbsp;<b>goal</b></td>
     <td bgcolor="#0d1117">build things that actually work</td>
   </tr>
   <tr>
@@ -40,14 +40,8 @@
     <td bgcolor="#0d1117"><code>Zed</code> (primary) + <code>neovim</code> (whenever I'm bored and miss it)</td>
   </tr>
   <tr>
-    <td bgcolor="#0d1117">⚙️&nbsp;<b>runtime</b></td>
-    <td bgcolor="#0d1117"><code>Python</code> / <code>Go</code> / <code>C</code> · <code>WSL2</code></td>
-  </tr>
-  <tr>
-    <td bgcolor="#0d1117">📈&nbsp;<b>progress</b></td>
-    <td bgcolor="#0d1117">
-      <img src="https://progress-bar.xyz/80/?title=still%20going&width=220&color=bf00ff&suffix=%25" alt="progress bar"/>
-    </td>
+    <td bgcolor="#0d1117">⚙️&nbsp;<b>languages</b></td>
+    <td bgcolor="#0d1117"><code>Python</code> / <code>Go</code> / <code>C</code> / <code>C++</code> (sometimes)</td>
   </tr>
 </table>
 
@@ -74,64 +68,6 @@
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00f5ff,50:bf00ff,100:ff00ff&height=3&width=900" alt="divider" />
-</div>
-
-<div align="center">
-
-  <img src="https://img.shields.io/badge/-SOME%20PROJECTS-0d1117?style=for-the-badge&labelColor=bf00ff&color=0d1117" alt="Some Projects" />
-
-</div>
-
-<table align="center" width="100%">
-  <tr>
-    <td valign="top" width="50%">
-      <h3><a href="https://github.com/tsuyoshi64/tsuyoshi-asteroid-game">tsuyoshi-asteroid-game</a></h3>
-      <blockquote>
-        <strong>Classic Asteroids</strong> rebuilt in Python.<br>
-        Applying some physics.
-      </blockquote>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/Pygame-00b140?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/uv-111827?style=flat-square&logo=python&logoColor=white" />
-      </p>
-      <details>
-        <summary><b><i>View Key Features</i></b></summary>
-        <br/>
-        <ul>
-          <li>Real-time game loop at <b>60 FPS</b></li>
-          <li>Circle-based collision detection</li>
-          <li>Asteroid splitting on impact</li>
-          <li>Sprite groups for clean update/draw logic</li>
-          <li>JSONL game-state &amp; event logging</li>
-        </ul>
-      </details>
-    </td>
-    <td valign="top" width="50%">
-      <h3><a href="https://github.com/tsuyoshi64/tsuyoshi-ai">tsuyoshi-ai</a></h3>
-      <blockquote>A coding agent that inspects, edits, and runs code inside a scoped directory.</blockquote>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white" />
-        <img src="https://img.shields.io/badge/Tool_Calling-ff6b6b?style=flat-square&logoColor=white" />
-      </p>
-      <details>
-        <summary><b><i>View Key Features</i></b></summary>
-        <br/>
-        <ul>
-          <li>Gemini API with function/tool calling</li>
-          <li>Multi-step agent loop (up to 20 iterations)</li>
-          <li>Working-directory boundary checks for safety</li>
-          <li>CLI usage via <code>uv run main.py</code></li>
-          <li>Test scripts for file ops &amp; path breakouts</li>
-        </ul>
-      </details>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00ff,50:bf00ff,100:00f5ff&height=3&width=900" alt="divider" />
 </div>
 
 <div align="center">
@@ -174,7 +110,7 @@
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,go,c,neovim,bash,git,linux&theme=dark&perline=8" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=python,go,c,neovim,bash,git,windows,linux&theme=dark&perline=8" alt="Tech Stack" />
 </div>
 
 <details>
@@ -259,5 +195,5 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00ff,50:bf00ff,100:00f5ff&height=120&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff00ff,50:bf00ff,100:00f5ff&height=120&section=footer&text=Visit+my+repositories+to+view+my+projects+^^+⮯&fontSize=25&fontColor=ffffff&fontAlignY=80&" width="100%" />
 </div>
