@@ -2,7 +2,7 @@
 
 # Hi, I'm Tsuyoshi
 
-### Python & Go learner, currently in love with CLI tools.
+### Python & Go learner, NeoVim user, currently in love with CLI tools.
 
 [![GitHub](https://img.shields.io/badge/GitHub-tsuyoshi64-181717?style=for-the-badge&logo=github)](https://github.com/tsuyoshi64)
 ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
