@@ -233,7 +233,7 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00ff,50:bf00ff,100:00f5ff&height=3&width=900" alt="divider" />
 </div>
 
-## *Oh! I'm currently learning on [Boot.dev](https://www.boot.dev) too, it's amazing!*
+## *Oh! I'm currently learning on [Boot.dev](https://www.boot.dev/u/tsuyoshi64) too, it's amazing!*
 
 <p align="center">
   <img src="https://api.boot.dev/v1/users/public/f9bb5e01-d5fd-4b75-bb77-59d38d26249e/thumbnail" alt="Boot.dev Progress" />
