@@ -55,8 +55,6 @@ An AI coding agent built in Python that can inspect, edit, and run code inside a
 
 ```text
 Python fundamentals        -> clean modules, types, tests, CLI programs
-Game development           -> loops, sprites, collision, input, simulation
-AI tool orchestration      -> function calling, agents, scoped execution
 Developer workflows        -> uv, Git, GitHub, project documentation
 Debugging discipline       -> logs, test cases, readable program behavior
 ```
