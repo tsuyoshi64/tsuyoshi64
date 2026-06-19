@@ -193,8 +193,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=tsuyoshi64&bg_color=0d1117&color=00f5ff&line=bf00ff&point=ff00ff&area=true&area_color=bf00ff&hide_border=false&custom_title=tsuyoshi64%27s%20commit%20frequency&title_color=00f5ff" width="95%" alt="Commit Activity" />
 </div>
 
----
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/tsuyoshi64/tsuyoshi64/output/github-contribution-grid-snake-dark.svg" alt="github contribution snake" />
 </div>
