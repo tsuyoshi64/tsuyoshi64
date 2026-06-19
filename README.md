@@ -62,7 +62,7 @@
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/-WHO%20AM%20I%3F-0d1117?style=for-the-badge&labelColor=00f5ff&color=0d1117" alt="Who am I" />
+  <img src="https://img.shields.io/badge/-WHO%20AM%20I%3F-0d1117?style=for-the-badge&labelColor=00f5ff&color=0d1117" alt="Who am I" height="80"/>
 
 </div>
 
