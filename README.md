@@ -27,7 +27,7 @@
 <table>
   <tr>
     <td align="center" colspan="2" bgcolor="#0d1117">
-      <code><b>&nbsp;⚡ SYSTEM STATUS :: ONLINE&nbsp;</b></code>
+      <code><b>&nbsp;⚡ TSURUMARU TSUYOSHI&nbsp;</b></code>
     </td>
   </tr>
   <tr>
