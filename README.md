@@ -2,7 +2,7 @@
 
 # Hi, I'm Tsuyoshi
 
-### Python developer building games, AI agents, and practical command-line tools.
+### Python & Go learner, currently in love with CLI tools.
 
 [![GitHub](https://img.shields.io/badge/GitHub-tsuyoshi64-181717?style=for-the-badge&logo=github)](https://github.com/tsuyoshi64)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -15,9 +15,8 @@
 
 ## About Me
 
-I am focused on learning by building real projects: small systems with clear behavior, readable Python code, and practical user-facing results. My current work centers on game programming, AI-assisted coding tools, file-system automation, testing, and command-line workflows.
+I am focused on learning by building projects: small systems with clear behavior, readable Python code, and practical user-facing results. My current work centers on game programming, AI-assisted coding tools, file-system automation, testing, and command-line workflows. I just bulilt those porjects with guidance, and I'm working on building one on my own.
 
-I like projects that make code feel alive: interactive loops, autonomous agents, scoped tools, and programs that turn a simple idea into something you can run.
 
 ## Featured Projects
 
