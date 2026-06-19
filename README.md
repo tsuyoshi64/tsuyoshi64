@@ -20,36 +20,39 @@ I am focused on learning by building projects: small systems with clear behavior
 
 ## Featured Projects
 
-<table>
+<table align="center" width="100%">
   <tr>
     <td valign="top" width="50%">
-      <h3><a href="https://github.com/tsuyoshi64/tsuyoshi-asteroid-game">tsuyoshi-asteroid-game</a></h3>
-      <p>A classic Asteroids-style arcade game built with Python and Pygame.</p>
-      <b>What it includes</b>
+      <h3>🚀 <a href="https://github.com/tsuyoshi64/tsuyoshi-asteroid-game">tsuyoshi-asteroid-game</a></h3>
+      <blockquote>A classic Asteroids-style arcade game built with Python and Pygame.</blockquote>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/uv-111827?style=flat-square&logo=python&logoColor=white" alt="uv" />
+      </p>
+      <b>✨ Key Features</b>
       <ul>
-        <li>Real-time game loop running at 60 FPS</li>
-        <li>Player movement, rotation, shooting, and cooldown handling</li>
-        <li>Asteroid spawning from screen edges with randomized speed and direction</li>
-        <li>Circle-based collision detection for player, asteroid, and shot interactions</li>
-        <li>Asteroid splitting behavior when larger asteroids are hit</li>
-        <li>Sprite groups for clean update and draw organization</li>
-        <li>JSONL game-state and event logging for debugging gameplay behavior</li>
+        <li>Real-time game loop running at <b>60 FPS</b></li>
+        <li>Player movement, rotation, shooting, and cooldowns</li>
+        <li>Circle-based collision detection & asteroid splitting</li>
+        <li>Sprite groups for clean update/draw organization</li>
+        <li>JSONL game-state logging for debugging</li>
       </ul>
-      <p><b>Tech used:</b> Python 3.13, Pygame, uv</p>
     </td>
     <td valign="top" width="50%">
-      <h3><a href="https://github.com/tsuyoshi64/tsuyoshi-ai">tsuyoshi-ai</a></h3>
-      <p>An AI coding agent built in Python that can inspect, edit, and run code inside a scoped working directory.</p>
-      <b>What it includes</b>
+      <h3>🤖 <a href="https://github.com/tsuyoshi64/tsuyoshi-ai">tsuyoshi-ai</a></h3>
+      <blockquote>An AI coding agent that inspects, edits, and runs code inside a scoped directory.</blockquote>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini API" />
+      </p>
+      <b>✨ Key Features</b>
       <ul>
         <li>Gemini API integration with tool/function calling</li>
-        <li>A multi-step agent loop with up to 20 reasoning/tool iterations</li>
-        <li>Local tools for listing files, reading files, writing files, and executing Python scripts</li>
-        <li>Working-directory boundary checks to prevent file access outside the allowed project</li>
-        <li>CLI usage through <code>uv run main.py "your prompt here"</code></li>
-        <li>Test scripts covering file listing, file reading, file writing, Python execution, and path breakout cases</li>
+        <li>Multi-step agent loop (up to 20 reasoning iterations)</li>
+        <li>Local tools for file reading, writing, and execution</li>
+        <li>Working-directory boundary checks for safety</li>
+        <li>Test scripts covering execution and path breakouts</li>
       </ul>
-      <p><b>Tech used:</b> Python 3.14, Google GenAI SDK, python-dotenv, uv</p>
     </td>
   </tr>
 </table>
