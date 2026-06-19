@@ -5,7 +5,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&random=false&width=700&lines=learning+by+building;CLI+%26+NeoVim;Python+%26+Go+%26+C;Backend+Cybersecurity." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&random=false&width=700&lines=learning+by+building;Zed+%26+NeoVim;CLI;Python+%26+Go+%26+C;Backend+Cybersecurity." alt="Typing SVG" />
 </div>
 
 <br/>
@@ -249,7 +249,9 @@
   <div align="center">
     <em>Yes. I am Tsurumaru Tsuyoshi from Umamusume: Pretty Derby.</em>
     <br/>
-    <em>*(Everyone shocked sfx)*</em>
+    <em>*Everyone shocked sfx*</em>
+    <br/>
+    <em>....Anyway, thank u for visiting this profile ^^</em>
   </div>
   <br/>
 </details>
