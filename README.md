@@ -248,9 +248,7 @@
   <div align="center">
     <em>Yes. I am Tsurumaru Tsuyoshi from Umamusume: Pretty Derby.</em>
     <br/>
-    <em>A horse girl who codes Python and lives inside NeoVim.</em>
-    <br/>
-    <em>The rarest build. 🎌</em>
+    <em>*(Everyone shocked sfx)*</em>
   </div>
   <br/>
 </details>
