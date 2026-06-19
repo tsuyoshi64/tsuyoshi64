@@ -15,7 +15,7 @@
 
 ## About Me
 
-I am focused on learning by building projects: small systems with clear behavior, readable Python code, and practical user-facing results. My current work centers on game programming, AI-assisted coding tools, file-system automation, testing, and command-line workflows. I just bulilt those porjects with guidance, and I'm working on building one on my own.
+I am focused on learning by building projects: small systems with clear behavior, readable Python code, and practical user-facing results. My current work centers on building simple CLI tools. I just bulilt those porjects with guidance, and I'm working on building one on my own.
 
 
 ## Featured Projects
