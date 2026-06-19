@@ -67,7 +67,7 @@
 </div>
 
 <div align="center">
-<p><b>The name I use is Tsurumaru Tsuyoshi, but you can call me "Tsu".</b></p>
+<p><b>The name I use is <i>Tsurumaru Tsuyoshi</i>, but you can call me <i>"Tsu"</i>.</b></p>
 <p><b>I build small projects with Python (aiming to Go).</b></p>
 <p>I'm current like CLI tools, and I'm planning to build more, and I'm still learning to do so.</p>
 
@@ -244,7 +244,7 @@
 </div>
 
 <details>
-  <summary><b>&nbsp;Wait. Who <i>is</i> Tsuyoshi, really?</b></summary>
+  <summary><b>&nbsp;Hmm, someone said they've heard the <i>Tsuyoshi</i> name before...</b></summary>
   <br/>
   <div align="center">
     <em>Yes. I am Tsurumaru Tsuyoshi from Umamusume: Pretty Derby.</em>
