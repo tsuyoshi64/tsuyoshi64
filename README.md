@@ -56,7 +56,7 @@
 
 ---
 
-## Who am I?
+## **Who am I?**
 
 > **I build small, complete projects with clear behavior, readable Python code, and practical user-facing results.**
 >
@@ -70,7 +70,7 @@
 
 ---
 
-## Some Projects
+## **Some Projects**
 
 <table align="center" width="100%">
   <tr>
@@ -119,7 +119,7 @@
 
 ---
 
-## What I'm practicing right now
+## **What I'm practicing right now**
 
 <table align="center" width="100%">
   <tr><th align="left" bgcolor="#0d1117">🧩 Track</th><th align="left" bgcolor="#0d1117">🛠️ Focus</th></tr>
@@ -132,7 +132,7 @@
 
 ---
 
-## My plan
+## **My plan**
 
 <table align="center" width="100%">
   <tr>
@@ -158,7 +158,7 @@
 
 ---
 
-## My stack
+## **My stack**
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,go,c,neovim,bash,git,github,linux&theme=dark&perline=8" alt="Tech Stack" />
@@ -166,7 +166,7 @@
 
 ---
 
-## Github stats
+## **Github stats**
 
 <div align="center">
   <table>
@@ -201,7 +201,7 @@
 
 ---
 
-## Oh! I'm currently learning on ![Boot.dev](https://www.boot.dev) too, it's amazing!
+## *Oh! I'm currently learning on [Boot.dev](https://www.boot.dev) too, it's amazing!*
 
 <p align="center">
   <img src="https://api.boot.dev/v1/users/public/f9bb5e01-d5fd-4b75-bb77-59d38d26249e/thumbnail" alt="Boot.dev Progress" />
