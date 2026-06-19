@@ -5,7 +5,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&random=false&width=700&lines=Python+dev+--+learning+by+building;CLI+%26+NeoVim+devotee;Exploring+Go+%26+C%2C+one+bug+at+a+time;Backend+%26+AI+engineering+--+loading;nvim+is+not+a+phase.+it%27s+a+lifestyle." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&random=false&width=700&lines=learning+by+building;CLI+%26+NeoVim;Python+%26+Go+%26+C%2C+one+bug+at+a+time;Backend+Cybersecurity%26+--+loading;nvim+is+not+a+phase.+it%27s+a+lifestyle." alt="Typing SVG" />
 </div>
 
 <br/>
@@ -184,7 +184,7 @@
 <table align="center" width="100%">
   <tr><th align="left" bgcolor="#0d1117">Tier</th><th align="left" bgcolor="#0d1117">Skills</th></tr>
   <tr><td>🟢 Core</td><td>Python, Git/GitHub, Neovim, Bash, Linux/WSL2</td></tr>
-  <tr><td>🟡 Comfortable</td><td>C, Go, LSP/DAP tooling, Zed config internals</td></tr>
+  <tr><td>🟡 Comfortable</td><td>C, Go</td></tr>
   <tr><td>🔵 Exploring</td><td>Offensive &amp; defensive cybersecurity, backend APIs, AI agent tooling</td></tr>
 </table>
 
