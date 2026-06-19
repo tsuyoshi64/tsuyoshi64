@@ -22,20 +22,35 @@
 
 <div align="center">
 
-```
-  ╔═══════════════════════════════════════════════════════════╗
-  ║               SYSTEM STATUS  ::  ONLINE                   ║
-  ╠═══════════════════════════════════════════════════════════╣
-  ║                                                           ║
-  ║   user       -->  tsuyoshi64                              ║
-  ║   mission    -->  build things that actually work         ║
-  ║   editors    -->  neovim (primary)  +  zed (parallel)     ║
-  ║   runtime    -->  Python  /  Go  /  C   |   WSL2          ║
-  ║                                                           ║
-  ║   progress   [################----]  80%   still going    ║
-  ║                                                           ║
-  ╚═══════════════════════════════════════════════════════════╝
-```
+<table>
+  <tr>
+    <td align="center" colspan="2" bgcolor="#0d1117">
+      <code><b>&nbsp;⚡ SYSTEM STATUS :: ONLINE&nbsp;</b></code>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#0d1117">🧑‍💻&nbsp;<b>user</b></td>
+    <td bgcolor="#0d1117"><code>tsuyoshi64</code></td>
+  </tr>
+  <tr>
+    <td bgcolor="#0d1117">🎯&nbsp;<b>mission</b></td>
+    <td bgcolor="#0d1117">build things that actually work</td>
+  </tr>
+  <tr>
+    <td bgcolor="#0d1117">🪶&nbsp;<b>editors</b></td>
+    <td bgcolor="#0d1117"><code>neovim</code> (primary) + <code>zed</code> (parallel)</td>
+  </tr>
+  <tr>
+    <td bgcolor="#0d1117">⚙️&nbsp;<b>runtime</b></td>
+    <td bgcolor="#0d1117"><code>Python</code> / <code>Go</code> / <code>C</code> · <code>WSL2</code></td>
+  </tr>
+  <tr>
+    <td bgcolor="#0d1117">📈&nbsp;<b>progress</b></td>
+    <td bgcolor="#0d1117">
+      <img src="https://progress-bar.xyz/80/?title=still%20going&width=220&color=bf00ff&suffix=%25" alt="progress bar"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
@@ -43,17 +58,15 @@
 
 ## `> whoami`
 
-```bash
-$ cat mission.txt
+> **I build small, complete projects with clear behavior, readable Python code, and practical user-facing results.**
+>
+> Learning by doing — not just following tutorials. Each project is a rep: structure, safety, testing, docs.
 
-  I build small, complete projects with clear behavior,
-  readable Python code, and practical user-facing results.
+<div align="center">
 
-  Learning by doing — not just following tutorials.
-  Each project is a rep: structure, safety, testing, docs.
+🎓 Studying @ **HCMUS** &nbsp;|&nbsp; 🥾 Grinding **Boot.dev** &nbsp;|&nbsp; 🚀 Shipping code.
 
-  Studying @ HCMUS  |  Grinding Boot.dev  |  Shipping code.
-```
+</div>
 
 ---
 
@@ -108,34 +121,40 @@ $ cat mission.txt
 
 ## `> cat practice_log.txt`
 
-```
- ┌─ tmux: learning ────────────────────────────────────────┐
- │                                                          │
- │  python fundamentals  -->  modules · types · tests      │
- │  developer workflows  -->  uv · git · github · docs     │
- │  debugging discipline -->  logs · tests · readability   │
- │  system programming   -->  C · memory model · pointers  │
- │  backend foundations  -->  Go · concurrency · APIs      │
- │                                                          │
- └─ [learning] 0:bash  "~/projects"   ────────────────────-┘
-```
+<table align="center" width="100%">
+  <tr><th align="left" bgcolor="#0d1117">🧩 Track</th><th align="left" bgcolor="#0d1117">🛠️ Focus</th></tr>
+  <tr><td>Python fundamentals</td><td>modules · types · tests</td></tr>
+  <tr><td>Developer workflows</td><td><code>uv</code> · git · GitHub · docs</td></tr>
+  <tr><td>Debugging discipline</td><td>logs · tests · readability</td></tr>
+  <tr><td>System programming</td><td>C · memory model · pointers</td></tr>
+  <tr><td>Backend foundations</td><td>Go · concurrency · APIs</td></tr>
+</table>
 
 ---
 
 ## `> cat direction.md`
 
-```diff
-// MISSION LOG — tsuyoshi64
-
-+ building toward backend & AI engineering
-+ each project: structure · safety · testing · clear docs
-+ small but complete > big but broken
-+ learning on Boot.dev alongside real projects
-
-- no tutorial hell
-- no skipping the fundamentals
-- no shipping code I don't understand
-```
+<table align="center" width="100%">
+  <tr>
+    <td valign="top" width="50%" bgcolor="#0d1117">
+      <h4>✅ Doing</h4>
+      <ul>
+        <li>Building toward backend &amp; AI engineering</li>
+        <li>Every project: structure · safety · testing · clear docs</li>
+        <li>Small but complete &gt; big but broken</li>
+        <li>Learning on Boot.dev alongside real projects</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%" bgcolor="#0d1117">
+      <h4>🚫 Avoiding</h4>
+      <ul>
+        <li>Tutorial hell</li>
+        <li>Skipping the fundamentals</li>
+        <li>Shipping code I don't understand</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -181,7 +200,6 @@ $ cat mission.txt
 <div align="center">
   <img src="https://raw.githubusercontent.com/tsuyoshi64/tsuyoshi64/output/github-contribution-grid-snake-dark.svg" alt="github contribution snake" />
 </div>
-
 
 ---
 
