@@ -86,7 +86,7 @@
   <tr>
     <td valign="top" width="50%">
       <h3>🚀 <a href="https://github.com/tsuyoshi64/tsuyoshi-asteroid-game">tsuyoshi-asteroid-game</a></h3>
-      <blockquote>Classic Asteroids rebuilt in Python — real physics, real fun.</blockquote>
+      <blockquote>Classic Asteroids rebuilt in Python — applied some physics.</blockquote>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/Pygame-00b140?style=flat-square&logo=python&logoColor=white" />
@@ -171,7 +171,7 @@
 </div>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,go,c,neovim,bash,git,github,linux&theme=dark&perline=8" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=python,go,c,neovim,bash,git,linux&theme=dark&perline=8" alt="Tech Stack" />
 </div>
 
 <details>
