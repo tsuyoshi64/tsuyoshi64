@@ -62,15 +62,16 @@
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/-WHO%20AM%20I%3F-0d1117?style=for-the-badge&labelColor=00f5ff&color=0d1117" alt="Who am I" height="38"/>
+  <img src="https://img.shields.io/badge/-WHO%20AM%20I%3F-0d1117?style=for-the-badge&labelColor=00f5ff&color=0d1117" alt="Who am I" height="40" />
 
 </div>
 
 <div align="center">
-<p><b>I build small, complete projects with clear behavior, readable Python code, and practical user-facing results.</b></p>
-<p>Learning by doing — not just following tutorials. Each project is a rep: structure, safety, testing, docs.</p>
+<p><b>The name I use is **Tsurumaru Tsuyoshi**, but you can call me **Tsu**</b></p>
+<p><b>I build small projects with Python code, with practical user-facing results.</b></p>
+<p>I'm current like CLI tools, and I'm planning to build more. But I'm still learning.</p>
 
-🎓 Studying [**Boot.dev**](https://www.boot.dev) &nbsp;|&nbsp; 🚀 Learning how to code
+🎓 Studying [**Boot.dev**](https://www.boot.dev) &nbsp;|&nbsp; 🚀 Learn & Code
 
 </div>
 
