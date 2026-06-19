@@ -56,7 +56,7 @@
 
 ---
 
-## `> whoami`
+## Who am I?
 
 > **I build small, complete projects with clear behavior, readable Python code, and practical user-facing results.**
 >
@@ -70,7 +70,7 @@
 
 ---
 
-## `> ls ./projects/`
+## Some Projects
 
 <table align="center" width="100%">
   <tr>
@@ -119,7 +119,7 @@
 
 ---
 
-## `> cat practice_log.txt`
+## What I'm practicing right now
 
 <table align="center" width="100%">
   <tr><th align="left" bgcolor="#0d1117">🧩 Track</th><th align="left" bgcolor="#0d1117">🛠️ Focus</th></tr>
@@ -132,7 +132,7 @@
 
 ---
 
-## `> cat direction.md`
+## My plan
 
 <table align="center" width="100%">
   <tr>
@@ -158,7 +158,7 @@
 
 ---
 
-## `> neofetch --stack`
+## My stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,go,c,neovim,bash,git,github,linux&theme=dark&perline=8" alt="Tech Stack" />
@@ -166,7 +166,7 @@
 
 ---
 
-## `> htop --mode=github`
+## Github stats
 
 <div align="center">
   <table>
@@ -195,15 +195,13 @@
 
 ---
 
-## `> git log --snake`
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/tsuyoshi64/tsuyoshi64/output/github-contribution-grid-snake-dark.svg" alt="github contribution snake" />
 </div>
 
 ---
 
-## `> cat bootdev.log`
+## Oh! I'm currently learning on ![Boot.dev](https://www.boot.dev) too, it's amazing!
 
 <p align="center">
   <img src="https://api.boot.dev/v1/users/public/f9bb5e01-d5fd-4b75-bb77-59d38d26249e/thumbnail" alt="Boot.dev Progress" />
@@ -212,7 +210,7 @@
 ---
 
 <details>
-  <summary><b>🐎 &nbsp;Wait. Who <i>is</i> tsuyoshi64, really?</b></summary>
+  <summary><b>&nbsp;Wait. Who <i>is</i> Tsuyoshi, really?</b></summary>
   <br/>
   <div align="center">
     <em>Yes. I am Tsurumaru Tsuyoshi from Umamusume: Pretty Derby.</em>
