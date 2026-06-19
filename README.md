@@ -13,7 +13,7 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=tsuyoshi64&color=bf00ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
   &nbsp;
-  <img src="https://img.shields.io/github/followers/tsuyoshi64?color=00f5ff&labelColor=0d1117&style=for-the-badge&logo=github&label=FOLLOWERS" alt="Followers" />
+  <img src="https://img.shields.io/github/followers/tsuyoshi64?color=bf00ff&labelColor=4A4A4A&style=for-the-badge&logo=github&label=FOLLOWERS" alt="Followers" />
 </div>
 
 <br/>
