@@ -27,7 +27,7 @@
 <table>
   <tr>
     <td align="center" colspan="2" bgcolor="#0d1117">
-      <code><b>&nbsp;⚡ TSURUMARU TSUYOSHI&nbsp;</b></code>
+      <code><b>&nbsp;TSURUMARU TSUYOSHI&nbsp;</b></code>
     </td>
   </tr>
   <tr>
@@ -40,7 +40,7 @@
   </tr>
   <tr>
     <td bgcolor="#0d1117">🪶&nbsp;<b>editors</b></td>
-    <td bgcolor="#0d1117"><code>neovim</code> (primary) + <code>zed</code> (parallel)</td>
+    <td bgcolor="#0d1117"><code>zedneovim</code> (primary) + <code>neovim</code> (whenever I'm bored and miss it)</td>
   </tr>
   <tr>
     <td bgcolor="#0d1117">⚙️&nbsp;<b>runtime</b></td>
