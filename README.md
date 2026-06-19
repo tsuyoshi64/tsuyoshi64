@@ -5,7 +5,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&random=false&width=700&lines=learning+by+building;CLI+%26+NeoVim;Python+%26+Go+%26+C%2C+one+bug+at+a+time;Backend+Cybersecurity%26+--+loading;nvim+is+not+a+phase.+it%27s+a+lifestyle." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&random=false&width=700&lines=learning+by+building;CLI+%26+NeoVim;Python+%26+Go+%26+C;Backend+Cybersecurity%26+--+loading;nvim+is+not+a+phase.+it%27s+a+lifestyle." alt="Typing SVG" />
 </div>
 
 <br/>
@@ -150,6 +150,7 @@
         <li>Building projects &amp; will be using AI but not to create *slop*.</li>
         <li>Every project: structured · safe · fun</li>
         <li>Learning on Boot.dev alongside real projects</li>
+        <li>Learning Cybersecurity</li>
       </ul>
     </td>
     <td valign="top" width="50%" bgcolor="#0d1117">
