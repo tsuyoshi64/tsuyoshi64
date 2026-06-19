@@ -27,14 +27,12 @@
   ║               SYSTEM STATUS  ::  ONLINE                   ║
   ╠═══════════════════════════════════════════════════════════╣
   ║                                                           ║
-  ║   user       -->  tsuyoshi64                             ║
-  ║   location   -->  Ho Chi Minh City, Vietnam              ║
-  ║   institute  -->  HCMUS                                  ║
-  ║   mission    -->  build things that actually work        ║
-  ║   editors    -->  neovim (primary)  +  zed (parallel)    ║
-  ║   runtime    -->  Python  /  Go  /  C   |   WSL2         ║
+  ║   user       -->  tsuyoshi64                              ║
+  ║   mission    -->  build things that actually work         ║
+  ║   editors    -->  neovim (primary)  +  zed (parallel)     ║
+  ║   runtime    -->  Python  /  Go  /  C   |   WSL2          ║
   ║                                                           ║
-  ║   progress   [################----]  80%   still going   ║
+  ║   progress   [################----]  80%   still going    ║
   ║                                                           ║
   ╚═══════════════════════════════════════════════════════════╝
 ```
@@ -184,7 +182,6 @@ $ cat mission.txt
   <img src="https://raw.githubusercontent.com/tsuyoshi64/tsuyoshi64/output/github-contribution-grid-snake-dark.svg" alt="github contribution snake" />
 </div>
 
-> ⚠️ **One-time setup required for the snake** — add `snake.yml` (included) to `.github/workflows/` in your profile repo, then run it once manually from the Actions tab.
 
 ---
 
