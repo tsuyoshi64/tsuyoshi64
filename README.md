@@ -146,8 +146,9 @@
     <td valign="top" width="50%" bgcolor="#0d1117">
       <h4>✅ Doing</h4>
       <ul>
-        <li>Building toward backend &amp; AI engineering</li>
-        <li>Every project: structured · safe· fun</li>
+        <li>Learning Python and Go aggressively</li>
+        <li>Building projects &amp; will be using AI but not to create *slop*.</li>
+        <li>Every project: structured · safe · fun</li>
         <li>Learning on Boot.dev alongside real projects</li>
       </ul>
     </td>
