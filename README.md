@@ -5,7 +5,7 @@
 ### Python & Go learner, currently in love with CLI tools.
 
 [![GitHub](https://img.shields.io/badge/GitHub-tsuyoshi64-181717?style=for-the-badge&logo=github)](https://github.com/tsuyoshi64)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
 [![Pygame](https://img.shields.io/badge/Pygame-2E7D32?style=for-the-badge&logo=python&logoColor=white)](https://www.pygame.org/)
 [![uv](https://img.shields.io/badge/uv-111827?style=for-the-badge&logo=python&logoColor=white)](https://docs.astral.sh/uv/)
 
@@ -73,8 +73,7 @@ I am building toward stronger backend and AI engineering skills by creating smal
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://shields.io" alt="NeoVim" />
-  <img src="https://img.shields.io/badge/Pygame-2E7D32?style=flat-square&logo=python&logoColor=white" alt="Pygame" />
+  <img src="https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white" alt="NeoVim" />
   <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white" alt="Gemini API" />
   <img src="https://img.shields.io/badge/uv-111827?style=flat-square&logo=python&logoColor=white" alt="uv" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
