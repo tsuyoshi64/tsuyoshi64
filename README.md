@@ -6,7 +6,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-tsuyoshi64-181717?style=for-the-badge&logo=github)](https://github.com/tsuyoshi64)
 ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![uv](https://img.shields.io/badge/uv-111827?style=for-the-badge&logo=python&logoColor=white)](https://docs.astral.sh/uv/)
 
 </div>
