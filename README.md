@@ -137,40 +137,6 @@
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/-WHAT%20I'M%20PRACTICING%20RIGHT%20NOW-0d1117?style=for-the-badge&labelColor=00f5ff&color=0d1117" alt="What I'm practicing right now" />
-
-</div>
-
-<table align="center" width="100%">
-  <tr><th align="left" bgcolor="#0d1117">🧩 Track</th><th align="left" bgcolor="#0d1117">🛠️ Focus</th></tr>
-  <tr><td>Python fundamentals</td><td>modules · types · tests</td></tr>
-  <tr><td>Developer workflows</td><td><code>uv</code> · git · GitHub · docs</td></tr>
-  <tr><td>Debugging discipline</td><td>logs · tests · readability</td></tr>
-  <tr><td>System programming</td><td>C · memory model · pointers</td></tr>
-  <tr><td>Backend foundations</td><td>Go · concurrency · APIs</td></tr>
-</table>
-
-<details>
-<summary><b>🩹 &nbsp;Click for what's actually on fire right now</b></summary>
-<br/>
-
-<table align="center" width="100%">
-  <tr><th align="left" bgcolor="#0d1117">🔥 Issue</th><th align="left" bgcolor="#0d1117">📍 Status</th></tr>
-  <tr><td>Migrating Neovim configs/muscle memory to Zed</td><td>~80% done, F-row freed for debugger</td></tr>
-  <tr><td><code>$ZED_WORKTREE_ROOT</code> vs shell <code>cwd</code> on WSL2</td><td>resolved, was a path-resolution gotcha</td></tr>
-  <tr><td>vim-mode eating F-keys meant for tasks/debugger</td><td>fixed by scoping bindings to Editor context</td></tr>
-  <tr><td>Stale <code>wsl_connections</code> entries in Zed</td><td>still deciding whether to clean up</td></tr>
-  <tr><td>gpt-5.5 agent panel default — intentional or not?</td><td>unconfirmed, low priority</td></tr>
-</table>
-
-</details>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00f5ff,50:bf00ff,100:ff00ff&height=3&width=900" alt="divider" />
-</div>
-
-<div align="center">
-
   <img src="https://img.shields.io/badge/-MY%20PLAN-0d1117?style=for-the-badge&labelColor=bf00ff&color=0d1117" alt="My Plan" />
 
 </div>
@@ -181,8 +147,7 @@
       <h4>✅ Doing</h4>
       <ul>
         <li>Building toward backend &amp; AI engineering</li>
-        <li>Every project: structure · safety · testing · clear docs</li>
-        <li>Small but complete &gt; big but broken</li>
+        <li>Every project: structured · safe· fun</li>
         <li>Learning on Boot.dev alongside real projects</li>
       </ul>
     </td>
@@ -278,7 +243,7 @@
 </div>
 
 <details>
-  <summary><b>🐎 &nbsp;Wait. Who <i>is</i> Tsuyoshi, really?</b></summary>
+  <summary><b>&nbsp;Wait. Who <i>is</i> Tsuyoshi, really?</b></summary>
   <br/>
   <div align="center">
     <em>Yes. I am Tsurumaru Tsuyoshi from Umamusume: Pretty Derby.</em>
