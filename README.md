@@ -20,36 +20,39 @@ I am focused on learning by building projects: small systems with clear behavior
 
 ## Featured Projects
 
-### [tsuyoshi-asteroid-game](https://github.com/tsuyoshi64/tsuyoshi-asteroid-game)
-
-A classic Asteroids-style arcade game built with Python and Pygame.
-
-**What it includes**
-
-- Real-time game loop running at 60 FPS
-- Player movement, rotation, shooting, and cooldown handling
-- Asteroid spawning from screen edges with randomized speed and direction
-- Circle-based collision detection for player, asteroid, and shot interactions
-- Asteroid splitting behavior when larger asteroids are hit
-- Sprite groups for clean update and draw organization
-- JSONL game-state and event logging for debugging gameplay behavior
-
-**Tech used:** Python 3.13, Pygame, uv
-
-### [tsuyoshi-ai](https://github.com/tsuyoshi64/tsuyoshi-ai)
-
-An AI coding agent built in Python that can inspect, edit, and run code inside a scoped working directory.
-
-**What it includes**
-
-- Gemini API integration with tool/function calling
-- A multi-step agent loop with up to 20 reasoning/tool iterations
-- Local tools for listing files, reading files, writing files, and executing Python scripts
-- Working-directory boundary checks to prevent file access outside the allowed project
-- CLI usage through `uv run main.py "your prompt here"`
-- Test scripts covering file listing, file reading, file writing, Python execution, and path breakout cases
-
-**Tech used:** Python 3.14, Google GenAI SDK, python-dotenv, uv
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3><a href="https://github.com/tsuyoshi64/tsuyoshi-asteroid-game">tsuyoshi-asteroid-game</a></h3>
+      <p>A classic Asteroids-style arcade game built with Python and Pygame.</p>
+      <b>What it includes</b>
+      <ul>
+        <li>Real-time game loop running at 60 FPS</li>
+        <li>Player movement, rotation, shooting, and cooldown handling</li>
+        <li>Asteroid spawning from screen edges with randomized speed and direction</li>
+        <li>Circle-based collision detection for player, asteroid, and shot interactions</li>
+        <li>Asteroid splitting behavior when larger asteroids are hit</li>
+        <li>Sprite groups for clean update and draw organization</li>
+        <li>JSONL game-state and event logging for debugging gameplay behavior</li>
+      </ul>
+      <p><b>Tech used:</b> Python 3.13, Pygame, uv</p>
+    </td>
+    <td valign="top" width="50%">
+      <h3><a href="https://github.com/tsuyoshi64/tsuyoshi-ai">tsuyoshi-ai</a></h3>
+      <p>An AI coding agent built in Python that can inspect, edit, and run code inside a scoped working directory.</p>
+      <b>What it includes</b>
+      <ul>
+        <li>Gemini API integration with tool/function calling</li>
+        <li>A multi-step agent loop with up to 20 reasoning/tool iterations</li>
+        <li>Local tools for listing files, reading files, writing files, and executing Python scripts</li>
+        <li>Working-directory boundary checks to prevent file access outside the allowed project</li>
+        <li>CLI usage through <code>uv run main.py "your prompt here"</code></li>
+        <li>Test scripts covering file listing, file reading, file writing, Python execution, and path breakout cases</li>
+      </ul>
+      <p><b>Tech used:</b> Python 3.14, Google GenAI SDK, python-dotenv, uv</p>
+    </td>
+  </tr>
+</table>
 
 ## What I Am Practicing
 
