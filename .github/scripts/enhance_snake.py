@@ -139,15 +139,26 @@ def _attr(attrs: str, name: str) -> str | None:
 
 def find_cells(svg: str) -> list[dict]:
     cells = []
+    total_rects = 0
+    fills_seen: dict[str, int] = {}
     for m in RECT_TAG_RE.finditer(svg):
+        total_rects += 1
         attrs = m.group(1)
         fill = _attr(attrs, "fill")
+        if fill:
+            fills_seen[fill] = fills_seen.get(fill, 0) + 1
         if fill not in LEVEL_COLORS:
             continue
         x, y, w, h = (_attr(attrs, k) for k in ("x", "y", "width", "height"))
         if None in (x, y, w, h):
             continue
         cells.append({"x": float(x), "y": float(y), "w": float(w), "h": float(h), "fill": fill})
+
+    if not cells:
+        print(f"DEBUG: scanned {total_rects} <rect> tags total.", file=sys.stderr)
+        print(f"DEBUG: fill values actually seen: {fills_seen}", file=sys.stderr)
+        print(f"DEBUG: expected one of LEVEL_COLORS: {LEVEL_COLORS}", file=sys.stderr)
+
     return cells
 
 
