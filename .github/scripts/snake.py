@@ -102,10 +102,26 @@ def build_defs() -> str:
 
 def build_css() -> str:
     return f"""
+/* FIX: snk's own output declares --cs (snake fill color) WITHOUT a
+   leading hash (e.g. "--cs:00f5ff" instead of "--cs:#00f5ff"). That is
+   not a valid CSS color value, so every rule using var(--cs), including
+   snk's own .s rule for the snake head, is invalid at computed-value
+   time and falls back to the fill default (black). This re-declares
+   --cs with the correct, valid hex value; since custom properties don't
+   "merge" across declarations, whichever cascades last wins, so this
+   MUST be injected after snk's own style content (it is, via the same
+   style block here, appended after the original CSS text in
+   transform()). NOTE: SVG is strict XML, not HTML, so a literal
+   left-angle-bracket character inside a style block is NOT automatically
+   treated as CDATA the way it is in HTML — this comment must never
+   contain that literal character or it will be misparsed as a new tag. */
+:root {{ --cs: {SNAKE}; }}
+
 [fill="{L2}"] {{ filter: url(#glow-l2); }}
 [fill="{L3}"] {{ filter: url(#glow-l3); }}
 [fill="{L4}"] {{ filter: url(#glow-l4); animation: pulse-l4 2.4s ease-in-out infinite; }}
 [fill="{SNAKE}"], [stroke="{SNAKE}"] {{ filter: url(#glow-snake); }}
+.s {{ filter: url(#glow-snake); }}
 @keyframes pulse-l4 {{ 0%, 100% {{ opacity: 1; }} 50% {{ opacity: 0.65; }} }}
 .cal-label {{
   fill: {LABEL_COLOR};
@@ -159,10 +175,12 @@ def _attr(attrs: str, name: str) -> str | None:
 
 
 def detect_cell_size(svg: str) -> float:
-    # Reads the shared cell size from the .c{...} CSS rule (e.g. width:12px).
-    # Falls back to DEFAULT_CELL_SIZE if the rule can't be found, rather than
-    # failing outright — geometry derived from real x/y positions is still
-    # usable even if this specific lookup misses.
+    """
+    Reads the shared cell size from the .c{...} CSS rule (e.g. width:12px).
+    Falls back to DEFAULT_CELL_SIZE if the rule can't be found, rather than
+    failing outright — geometry derived from real x/y positions is still
+    usable even if this specific lookup misses.
+    """
     m = re.search(r'\.c\{[^}]*\bwidth:(\d+(?:\.\d+)?)px', svg)
     if m:
         return float(m.group(1))
@@ -417,8 +435,13 @@ def transform(raw: str) -> str:
 
     out = out.replace("__DEFS__", build_defs(), 1)
 
-    if re.search(r'<style\b', out):
-        out = re.sub(r'(<style\b[^>]*>)', rf'\1\n{build_css()}', out, count=1)
+    if re.search(r'</style>', out):
+        # Inject BEFORE the closing tag — i.e. AFTER all of snk's own rules —
+        # so our :root{--cs:...} override wins the cascade (custom property
+        # declarations are last-wins by source order for equal specificity;
+        # injecting before snk's own --cs declaration would let snk's
+        # broken value win instead, silencing this fix entirely).
+        out = re.sub(r'</style>', f'{build_css()}\n</style>', out, count=1)
     else:
         out = out.replace("</defs>", f'</defs>\n<style type="text/css">\n{build_css()}\n</style>', 1)
 
