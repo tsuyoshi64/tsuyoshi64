@@ -1,0 +1,35 @@
+<svg width="900" height="240" viewBox="0 0 900 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+      font-family: 'JetBrainsMono Nerd Font';
+      src: url('https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf');
+    }
+    .main-text { font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace; font-size: 18px; fill: #c9d1d9; }
+    .bold-text { font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace; font-weight: bold; font-size: 18px; fill: #ffffff; }
+    .italic-text { font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace; font-style: italic; font-size: 18px; fill: #ffffff; }
+    .link-text { font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace; font-weight: bold; font-size: 18px; fill: #58a6ff; }
+  </style>
+
+  <defs>
+    <linearGradient id="grad-who" x1="0" y1="120" x2="900" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.5" stop-color="#BF00FF"/>
+      <stop offset="1" stop-color="#FF00FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="896" height="236" rx="15" stroke="url(#grad-who)" stroke-width="3"/>
+  
+  <rect x="4" y="4" width="892" height="232" rx="13" fill="#0D1117"/>
+
+  <text x="450" y="50" text-anchor="middle" class="bold-text">The name I use is <tspan class="italic-text">Tsurumaru Tsuyoshi</tspan>, but you can call me <tspan class="italic-text">"Tsu"</tspan>.</text>
+  
+  <text x="450" y="90" text-anchor="middle" class="bold-text">I build small projects with Python (aiming to Go).</text>
+  
+  <text x="450" y="130" text-anchor="middle" class="main-text">I'm currently into CLI tools, and I'm planning to build more,</text>
+  <text x="450" y="160" text-anchor="middle" class="main-text">and I'm still learning to do so.</text>
+  
+  <line x1="100" y1="190" x2="800" y2="190" stroke="#2D333B" stroke-width="2"/>
+  
+  <text x="450" y="220" text-anchor="middle" class="main-text">🎓 Studying <tspan class="link-text">Boot.dev</tspan>  |  🚀 Code</text>
+</svg>
