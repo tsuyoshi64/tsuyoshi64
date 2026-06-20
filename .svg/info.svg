@@ -1,8 +1,8 @@
 <svg width="1000" height="400" viewBox="0 0 1000 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .main-text { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-size: 18px; fill: #c9d1d9; }
-    .bold-text { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-weight: bold; font-size: 18px; fill: #ffffff; }
-    .header-text { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-weight: bold; font-size: 22px; fill: #ffffff; }
+    .main-text { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-size: 21px; fill: #c9d1d9; }
+    .bold-text { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-weight: bold; font-size: 21px; fill: #ffffff; }
+    .header-text { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-weight: bold; font-size: 25px; fill: #ffffff; }
   </style>
   <defs>
     <linearGradient id="paint0_linear" x1="0" y1="200" x2="1000" y2="200" gradientUnits="userSpaceOnUse">
