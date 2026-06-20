@@ -56,7 +56,7 @@ jobs:
 
       # ── 3. Post-process: inject neon effects + calendar chrome ──────────────
       - name: Apply neon post-processing
-        run: python .github/scripts/enhance_snake.py
+        run: python .github/scripts/snake.py
 
       # ── 4. Push enhanced SVG to the output branch ──────────────────────────
       # snake-raw.svg is deleted by the script, so only the final file is pushed.
