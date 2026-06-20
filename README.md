@@ -16,10 +16,6 @@
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00f5ff,50:bf00ff,100:ff00ff&height=3&width=900" alt="divider" />
-</div>
-
-<div align="center">
   <img src="./.svg/info.svg" alt="Tsurumaru Tsuyoshi Profile Table" width="95%" style="display: block; margin: 0 auto;" />
 </div>
 
@@ -52,28 +48,9 @@
 
 </div>
 
-<table align="center" width="100%">
-  <tr>
-    <td valign="top" width="50%" bgcolor="#0d1117">
-      <h4><samp>✅ Doing</samp></h4>
-      <ul>
-        <li><samp>Learning Python and Go aggressively</samp></li>
-        <li><samp>Building projects &amp; will be using AI but not to create *slop*.</samp></li>
-        <li><samp>Every project: structured · safe · fun</samp></li>
-        <li><samp>Learning on Boot.dev alongside real projects</samp></li>
-        <li><samp>Learning Cybersecurity</samp></li>
-      </ul>
-    </td>
-    <td valign="top" width="50%" bgcolor="#0d1117">
-      <h4><samp>🚫 Avoiding</samp></h4>
-      <ul>
-        <li><samp>Tutorial hell</samp></li>
-        <li><samp>Skipping the fundamentals</samp></li>
-        <li><samp>Shipping code I don't understand</samp></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./.svg/my-plan.svg" alt="My Plan" width="95%" style="display: block; margin: 0 auto;" />
+</p>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00ff,50:bf00ff,100:00f5ff&height=3&width=900" alt="divider" />
@@ -96,12 +73,9 @@
 <summary><samp><b>🌳 &nbsp;Click to expand the skill tree</b></samp></summary>
 <br/>
 
-<table align="center" width="100%">
-  <tr><th align="left" bgcolor="#0d1117"><samp>Tier</samp></th><th align="left" bgcolor="#0d1117"><samp>Skills</samp></th></tr>
-  <tr><td><samp>🟢 Core</samp></td><td><samp>Python, Git/GitHub, Neovim, Bash, Linux/WSL2</samp></td></tr>
-  <tr><td><samp>🟡 Comfortable</samp></td><td><samp>C, Go</samp></td></tr>
-  <tr><td><samp>🔵 Exploring</samp></td><td><samp>Offensive &amp; defensive cybersecurity, backend APIs, AI agent tooling</samp></td></tr>
-</table>
+<p align="center">
+  <img src="./.svg/skill-tree.svg" alt="Skill Tree" width="95%" style="display: block; margin: 0 auto;" />
+</p>
 
 </details>
 
