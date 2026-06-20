@@ -1,6 +1,6 @@
 <svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .header { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-weight: bold; font-size: 24px; fill: #ffffff; }
+    .header { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-weight: bold; font-size: 26px; fill: #ffffff; }
     .item { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-size: 18px; fill: #c9d1d9; }
   </style>
   <defs>
@@ -16,14 +16,15 @@
   <line x1="450" y1="20" x2="450" y2="300" stroke="#2D333B" stroke-width="2"/>
   
   <text x="50" y="50" class="header">✅ Doing</text>
-  <text x="50" y="95" class="item">• Learning Python and Go aggressively</text>
-  <text x="50" y="135" class="item">• Building projects (no slop)</text>
-  <text x="50" y="175" class="item">• Every project: structured, safe, fun</text>
-  <text x="50" y="215" class="item">• Learning on Boot.dev</text>
-  <text x="50" y="255" class="item">• Learning Cybersecurity</text>
+  <text x="50" y="90" class="item">• Learning Python and Go</text>
+  <text x="50" y="130" class="item">• Building projects (no slop)</text>
+  <text x="50" y="170" class="item">• Every project: structured · safe</text>
+  <text x="50" y="210" class="item">• Learning on Boot.dev</text>
+  <text x="50" y="250" class="item">• Cybersecurity basics</text>
 
   <text x="470" y="50" class="header">🚫 Avoiding</text>
-  <text x="470" y="95" class="item">• Tutorial hell</text>
-  <text x="470" y="135" class="item">• Skipping the fundamentals</text>
-  <text x="470" y="175" class="item">• Shipping code I don't understand</text>
+  <text x="470" y="90" class="item">• Tutorial hell</text>
+  <text x="470" y="130" class="item">• Vibe coding hell</text>
+  <text x="470" y="170" class="item">• Skipping the fundamentals</text>
+  <text x="470" y="210" class="item">• Shipping code I don't understand</text>
 </svg>
