@@ -1,0 +1,36 @@
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-bootdev" x1="0" y1="160" x2="900" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.5" stop-color="#BF00FF"/>
+      <stop offset="1" stop-color="#FF00FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Gradient border, same pattern as whoami.svg / info.svg / my-plan.svg -->
+  <rect x="2" y="2" width="896" height="316" rx="15" stroke="url(#grad-bootdev)" stroke-width="3"/>
+
+  <!-- Dark inset background -->
+  <rect x="4" y="4" width="892" height="312" rx="13" fill="#0D1117"/>
+
+  <!--
+    Live, auto-updating Boot.dev thumbnail.
+    This is a reference to the SAME external URL used elsewhere in the
+    README — it is NOT a snapshot. SVG's <image> element fetches its href
+    like any other image resource; the browser re-requests it on every
+    page load, subject only to normal HTTP caching from api.boot.dev
+    itself (same as the bare <img> tag previously used directly in
+    README.md). GitHub's Camo proxy caches this OUTER .svg file by its own
+    URL, but does not rewrite or freeze URLs referenced INSIDE the SVG's
+    markup — those are resolved by the viewer's browser at render time,
+    same as any other externally-referenced SVG <image>.
+    preserveAspectRatio keeps the card's real proportions without
+    cropping or stretching, since the exact native pixel size of the
+    Boot.dev thumbnail isn't hardcoded here on purpose.
+  -->
+  <image
+    href="https://api.boot.dev/v1/users/public/f9bb5e01-d5fd-4b75-bb77-59d38d26249e/thumbnail"
+    x="24" y="24" width="852" height="272"
+    preserveAspectRatio="xMidYMid meet"
+  />
+</svg>
