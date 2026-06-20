@@ -1,0 +1,38 @@
+<svg width="900" height="220" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+      font-family: 'JetBrainsMono Nerd Font';
+      src: url('https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf');
+    }
+    .header { font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace; font-weight: bold; font-size: 20px; fill: #ffffff; }
+    .tier { font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace; font-weight: bold; font-size: 18px; fill: #ffffff; }
+    .skills { font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace; font-size: 16px; fill: #c9d1d9; }
+  </style>
+  <defs>
+    <linearGradient id="grad-skills" x1="0" y1="110" x2="900" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.5" stop-color="#BF00FF"/>
+      <stop offset="1" stop-color="#FF00FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="896" height="216" rx="15" stroke="url(#grad-skills)" stroke-width="3"/>
+  <rect x="4" y="4" width="892" height="212" rx="13" fill="#0D1117"/>
+  
+  <rect x="4" y="4" width="892" height="50" rx="13" fill="#161B22"/>
+  <rect x="4" y="24" width="892" height="30" fill="#161B22"/>
+  <line x1="4" y1="54" x2="896" y2="54" stroke="#2D333B" stroke-width="2"/>
+  
+  <text x="40" y="36" class="header">Tier</text>
+  <text x="250" y="36" class="header">Skills</text>
+
+  <text x="40" y="90" class="tier">🟢 Core</text>
+  <text x="250" y="90" class="skills">Python, Git/GitHub, Neovim, Bash, Linux/WSL2</text>
+  <line x1="4" y1="108" x2="896" y2="108" stroke="#2D333B" stroke-width="1"/>
+
+  <text x="40" y="140" class="tier">🟡 Comfortable</text>
+  <text x="250" y="140" class="skills">C, Go</text>
+  <line x1="4" y1="158" x2="896" y2="158" stroke="#2D333B" stroke-width="1"/>
+
+  <text x="40" y="190" class="tier">🔵 Exploring</text>
+  <text x="250" y="190" class="skills">Offensive &amp; defensive cybersecurity, backend APIs, AI agent tooling</text>
+</svg>
