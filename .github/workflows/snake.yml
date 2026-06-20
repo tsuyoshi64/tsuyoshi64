@@ -37,16 +37,28 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── 2. Post-process: inject neon effects ───────────────────────────────
+      # ── 2. Fetch the real total-contributions count via GraphQL ─────────────
+      # snk does not expose this number — we query it ourselves so the overlay
+      # can show an accurate "X contributions in the last year" line instead
+      # of an approximation derived from dot-color buckets. Implemented as a
+      # standalone script (not inline bash+curl) to avoid fragile nested
+      # quote-escaping in a GraphQL JSON body inside a YAML block scalar.
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      - name: Fetch total contributions
+        run: python .github/scripts/fetch_contrib_total.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+
+      # ── 3. Post-process: inject neon effects + calendar chrome ──────────────
       - name: Apply neon post-processing
         run: python .github/scripts/enhance_snake.py
 
-      # ── 3. Push enhanced SVG to the output branch ──────────────────────────
+      # ── 4. Push enhanced SVG to the output branch ──────────────────────────
       # snake-raw.svg is deleted by the script, so only the final file is pushed.
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
