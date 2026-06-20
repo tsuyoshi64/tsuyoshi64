@@ -20,8 +20,7 @@
 </div>
 
 <div align="center">
-<br/>
-  <img src="./.svg/info.svg" alt="Tsurumaru Tsuyoshi Profile Table" width="95%" />
+  <img src="./.svg/info.svg" alt="Tsurumaru Tsuyoshi Profile Table" width="95%" style="display: block; margin: 0 auto;" />
 </div>
 
 <div align="center">
