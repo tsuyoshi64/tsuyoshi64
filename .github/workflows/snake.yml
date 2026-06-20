@@ -2,7 +2,6 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    # Regenerates daily at midnight UTC
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
@@ -12,25 +11,48 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     permissions:
       contents: write
 
     steps:
-      - name: Generate snake SVG
+      # Needed so the post-processor script (.github/scripts/) is available
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── 1. Generate raw contribution grid SVG ──────────────────────────────
+      # 5-level depth-scaled neon palette:
+      #   L0 (#161b22)  — empty     — near-black
+      #   L1 (#2d1b4e)  — 1–3 days  — deep purple
+      #   L2 (#6929c4)  — 4–6 days  — electric violet
+      #   L3 (#bf00ff)  — 7–9 days  — bright magenta
+      #   L4 (#ff00ff)  — 10+ days  — hot-pink neon
+      #   snake (#00f5ff)            — electric cyan
+      - name: Generate snake SVG (base)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=ff00ff&color_dots=#1b2030,#05cad6,#00f5ff,#bf00ff,#ff00ff
-            dist/github-contribution-grid-snake-dark.svg?color_snake=ff00ff&color_dots=#1b2030,#05cad6,#00f5ff,#bf00ff,#ff00ff
+            dist/snake-raw.svg?color_snake=00f5ff&color_dots=#161b22,#2d1b4e,#6929c4,#bf00ff,#ff00ff
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push SVGs to output branch
+      # ── 2. Post-process: inject neon effects ───────────────────────────────
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Apply neon post-processing
+        run: python .github/scripts/enhance_snake.py
+
+      # ── 3. Push enhanced SVG to the output branch ──────────────────────────
+      # snake-raw.svg is deleted by the script, so only the final file is pushed.
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
+          keep_history: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
