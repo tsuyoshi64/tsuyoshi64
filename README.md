@@ -21,30 +21,7 @@
 
 <div align="center">
 <br/>
-<table>
-  <tr>
-    <td align="center" colspan="2" bgcolor="#0d1117">
-      <code><b>&nbsp;TSURUMARU TSUYOSHI&nbsp;</b></code>
-    </td>
-  </tr>
-  <tr>
-    <td bgcolor="#0d1117"><samp>🧑‍💻&nbsp;<b>username</b></samp></td>
-    <td bgcolor="#0d1117"><code>tsuyoshi64</code></td>
-  </tr>
-  <tr>
-    <td bgcolor="#0d1117"><samp>🎯&nbsp;<b>goal</b></samp></td>
-    <td bgcolor="#0d1117"><samp>build things that actually work</samp></td>
-  </tr>
-  <tr>
-    <td bgcolor="#0d1117"><samp>🪶&nbsp;<b>editors</b></samp></td>
-    <td bgcolor="#0d1117"><code>Zed</code> <samp>(primary) +</samp> <code>neovim</code> <samp>(whenever I'm bored and miss it)</samp></td>
-  </tr>
-  <tr>
-    <td bgcolor="#0d1117"><samp>⚙️&nbsp;<b>languages</b></samp></td>
-    <td bgcolor="#0d1117"><code>Python</code> <samp>/</samp> <code>Go</code> <samp>/</samp> <code>C</code> <samp>/</samp> <code>C++</code> <samp>(sometimes)</samp></td>
-  </tr>
-</table>
-
+  <img src="./.svg/info.svg" alt="Tsurumaru Tsuyoshi Profile Table" width="95%" />
 </div>
 
 <div align="center">
