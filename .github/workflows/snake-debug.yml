@@ -42,11 +42,17 @@ jobs:
         run: |
           echo "=== File size ==="
           wc -c dist/snake-raw.svg
-          echo "=== First 3000 chars ==="
-          head -c 3000 dist/snake-raw.svg
+          echo "=== Total rect count ==="
+          grep -o '<rect' dist/snake-raw.svg | wc -l
+          echo "=== Last 2500 chars (snake path / end of file) ==="
+          tail -c 2500 dist/snake-raw.svg
           echo ""
-          echo "=== Sample rect tags (first 5) ==="
-          grep -o '<rect[^>]*>' dist/snake-raw.svg | head -5
+          echo "=== Lines mentioning 'path' (snake body) ==="
+          grep -o '<path[^>]*>' dist/snake-raw.svg | head -3
+          echo "=== Any element with class containing 's' or 'snake' (head) ==="
+          grep -oE '<[a-z]+ class="[^"]*s[^"]*"[^>]*>' dist/snake-raw.svg | head -5
+          echo "=== Full <style> block char count ==="
+          python3 -c "import re; content = open('dist/snake-raw.svg').read(); m = re.search(r'<style>(.*?)</style>', content, re.DOTALL); print(len(m.group(1)) if m else 'NOT FOUND', 'chars in style block')"
 
       # ── 2. Fetch the real total-contributions count via GraphQL ─────────────
       # snk does not expose this number — we query it ourselves so the overlay
