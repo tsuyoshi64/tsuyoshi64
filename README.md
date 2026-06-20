@@ -16,7 +16,7 @@
 <br/>
 
 <div align="center">
-  <img src="./.svg/info.svg" alt="Tsurumaru Tsuyoshi Profile Table" width="95%" style="display: block; margin: 0 auto;" />
+  <img src="./.svg/info.svg" alt="Tsurumaru Tsuyoshi Profile Table" width="75%" style="display: block; margin: 0 auto;" />
 </div>
 
 <div align="center">
@@ -24,19 +24,18 @@
 </div>
 
 <div align="center">
-
-  <img src="https://img.shields.io/badge/-WHO%20AM%20I%3F-0d1117?style=for-the-badge&labelColor=00f5ff&color=0d1117" alt="Who am I" height="40" />
-
+  <img src="https://img.shields.io/badge/-WHO%20AM%20I%3F-0d1117?style=for-the-badge&labelColor=00f5ff&color=0d1117" alt="Who am I" height="50" />
 </div>
+
 
 <div align="center">
-<p><samp><b>The name I use is <i>Tsurumaru Tsuyoshi</i>, but you can call me <i>"Tsu"</i>.</b></samp></p>
-<p><samp><b>I build small projects with Python (aiming to Go).</b></samp></p>
-<p><samp>I'm currently into CLI tools, and I'm planning to build more, and I'm still learning to do so.</samp></p>
+  <h3><samp><b>The name I use is <i>Tsurumaru Tsuyoshi</i>, but you can call me <i>"Tsu"</i>.</b></samp></h3>
+  <h3><samp><b>I build small projects with Python (aiming to Go).</b></samp></h3>
+  <h3><samp>I'm currently into CLI tools, and I'm planning to build more, and I'm still learning to do so.</samp></h3>
 
-<p><samp>🎓 Studying <a href="https://www.boot.dev"><b>Boot.dev</b></a> &nbsp;|&nbsp; 🚀 Code</samp></p>
-
+  <p><samp>🎓 Studying <a href="https://boot.dev"><b>Boot.dev</b></a> &nbsp;|&nbsp; 🚀 Code</samp></p>
 </div>
+
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00f5ff,50:bf00ff,100:ff00ff&height=3&width=900" alt="divider" />
@@ -49,7 +48,7 @@
 </div>
 
 <p align="center">
-  <img src="./.svg/my-plan.svg" alt="My Plan" width="95%" style="display: block; margin: 0 auto;" />
+  <img src="./.svg/my-plan.svg" alt="My Plan" width="75%" style="display: block; margin: 0 auto;" />
 </p>
 
 <div align="center">
@@ -74,7 +73,7 @@
 <br/>
 
 <p align="center">
-  <img src="./.svg/skill-tree.svg" alt="Skill Tree" width="95%" style="display: block; margin: 0 auto;" />
+  <img src="./.svg/skill-tree.svg" alt="Skill Tree" width="75%" style="display: block; margin: 0 auto;" />
 </p>
 
 </details>
@@ -122,14 +121,16 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00ff,50:bf00ff,100:00f5ff&height=3&width=900" alt="divider" />
 </div>
 
-## <samp>*Oh! I'm currently learning on [Boot.dev](https://www.boot.dev/u/tsuyoshi64) too, it's amazing!*</samp>
+<div align="center">
+  <h2><samp><b>Oh! I'm currently learning on <a href="https://www.boot.dev/u/tsuyoshi64">Boot.dev</a> too, it's amazing!</b></samp></h2>
+</div>
 
 <p align="center">
-  <img src="https://api.boot.dev/v1/users/public/f9bb5e01-d5fd-4b75-bb77-59d38d26249e/thumbnail" alt="Boot.dev Progress" />
+  <img src="https://api.boot.dev/v1/users/public/f9bb5e01-d5fd-4b75-bb77-59d38d26249e/thumbnail" >
 </p>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:00f5ff,50:bf00ff,100:ff00ff&height=3&width=900" alt="divider" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00ff,50:bf00ff,100:00f5ff&height=3&width=900" alt="divider" />
 </div>
 
 <details>
