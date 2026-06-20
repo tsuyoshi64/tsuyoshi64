@@ -28,20 +28,20 @@
     </td>
   </tr>
   <tr>
-    <td bgcolor="#0d1117">🧑‍💻&nbsp;<b>username</b></td>
+    <td bgcolor="#0d1117"><samp>🧑‍💻&nbsp;<b>username</b></samp></td>
     <td bgcolor="#0d1117"><code>tsuyoshi64</code></td>
   </tr>
   <tr>
-    <td bgcolor="#0d1117">🎯&nbsp;<b>goal</b></td>
-    <td bgcolor="#0d1117">build things that actually work</td>
+    <td bgcolor="#0d1117"><samp>🎯&nbsp;<b>goal</b></samp></td>
+    <td bgcolor="#0d1117"><samp>build things that actually work</samp></td>
   </tr>
   <tr>
-    <td bgcolor="#0d1117">🪶&nbsp;<b>editors</b></td>
-    <td bgcolor="#0d1117"><code>Zed</code> (primary) + <code>neovim</code> (whenever I'm bored and miss it)</td>
+    <td bgcolor="#0d1117"><samp>🪶&nbsp;<b>editors</b></samp></td>
+    <td bgcolor="#0d1117"><code>Zed</code> <samp>(primary) +</samp> <code>neovim</code> <samp>(whenever I'm bored and miss it)</samp></td>
   </tr>
   <tr>
-    <td bgcolor="#0d1117">⚙️&nbsp;<b>languages</b></td>
-    <td bgcolor="#0d1117"><code>Python</code> / <code>Go</code> / <code>C</code> / <code>C++</code> (sometimes)</td>
+    <td bgcolor="#0d1117"><samp>⚙️&nbsp;<b>languages</b></samp></td>
+    <td bgcolor="#0d1117"><code>Python</code> <samp>/</samp> <code>Go</code> <samp>/</samp> <code>C</code> <samp>/</samp> <code>C++</code> <samp>(sometimes)</samp></td>
   </tr>
 </table>
 
@@ -58,11 +58,11 @@
 </div>
 
 <div align="center">
-<p><b>The name I use is <i>Tsurumaru Tsuyoshi</i>, but you can call me <i>"Tsu"</i>.</b></p>
-<p><b>I build small projects with Python (aiming to Go).</b></p>
-<p>I'm current like CLI tools, and I'm planning to build more, and I'm still learning to do so.</p>
+<p><samp><b>The name I use is <i>Tsurumaru Tsuyoshi</i>, but you can call me <i>"Tsu"</i>.</b></samp></p>
+<p><samp><b>I build small projects with Python (aiming to Go).</b></samp></p>
+<p><samp>I'm currently into CLI tools, and I'm planning to build more, and I'm still learning to do so.</samp></p>
 
-🎓 Studying [**Boot.dev**](https://www.boot.dev) &nbsp;|&nbsp; 🚀 Code
+<p><samp>🎓 Studying <a href="https://www.boot.dev"><b>Boot.dev</b></a> &nbsp;|&nbsp; 🚀 Code</samp></p>
 
 </div>
 
@@ -79,21 +79,21 @@
 <table align="center" width="100%">
   <tr>
     <td valign="top" width="50%" bgcolor="#0d1117">
-      <h4>✅ Doing</h4>
+      <h4><samp>✅ Doing</samp></h4>
       <ul>
-        <li>Learning Python and Go aggressively</li>
-        <li>Building projects &amp; will be using AI but not to create *slop*.</li>
-        <li>Every project: structured · safe · fun</li>
-        <li>Learning on Boot.dev alongside real projects</li>
-        <li>Learning Cybersecurity</li>
+        <li><samp>Learning Python and Go aggressively</samp></li>
+        <li><samp>Building projects &amp; will be using AI but not to create *slop*.</samp></li>
+        <li><samp>Every project: structured · safe · fun</samp></li>
+        <li><samp>Learning on Boot.dev alongside real projects</samp></li>
+        <li><samp>Learning Cybersecurity</samp></li>
       </ul>
     </td>
     <td valign="top" width="50%" bgcolor="#0d1117">
-      <h4>🚫 Avoiding</h4>
+      <h4><samp>🚫 Avoiding</samp></h4>
       <ul>
-        <li>Tutorial hell</li>
-        <li>Skipping the fundamentals</li>
-        <li>Shipping code I don't understand</li>
+        <li><samp>Tutorial hell</samp></li>
+        <li><samp>Skipping the fundamentals</samp></li>
+        <li><samp>Shipping code I don't understand</samp></li>
       </ul>
     </td>
   </tr>
@@ -113,15 +113,18 @@
   <img src="https://skillicons.dev/icons?i=python,go,c,neovim,bash,git,windows,linux&theme=dark&perline=8" alt="Tech Stack" />
 </div>
 
+<div align="center"><p><samp>Yes I'm using <i>Windows</i>, with <i>WSL 2</i> for dev (´-ω-`).</samp></p></div>
+
+
 <details>
-<summary><b>🌳 &nbsp;Click to expand the skill tree</b></summary>
+<summary><samp><b>🌳 &nbsp;Click to expand the skill tree</b></samp></summary>
 <br/>
 
 <table align="center" width="100%">
-  <tr><th align="left" bgcolor="#0d1117">Tier</th><th align="left" bgcolor="#0d1117">Skills</th></tr>
-  <tr><td>🟢 Core</td><td>Python, Git/GitHub, Neovim, Bash, Linux/WSL2</td></tr>
-  <tr><td>🟡 Comfortable</td><td>C, Go</td></tr>
-  <tr><td>🔵 Exploring</td><td>Offensive &amp; defensive cybersecurity, backend APIs, AI agent tooling</td></tr>
+  <tr><th align="left" bgcolor="#0d1117"><samp>Tier</samp></th><th align="left" bgcolor="#0d1117"><samp>Skills</samp></th></tr>
+  <tr><td><samp>🟢 Core</samp></td><td><samp>Python, Git/GitHub, Neovim, Bash, Linux/WSL2</samp></td></tr>
+  <tr><td><samp>🟡 Comfortable</samp></td><td><samp>C, Go</samp></td></tr>
+  <tr><td><samp>🔵 Exploring</samp></td><td><samp>Offensive &amp; defensive cybersecurity, backend APIs, AI agent tooling</samp></td></tr>
 </table>
 
 </details>
@@ -169,7 +172,7 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff00ff,50:bf00ff,100:00f5ff&height=3&width=900" alt="divider" />
 </div>
 
-## *Oh! I'm currently learning on [Boot.dev](https://www.boot.dev/u/tsuyoshi64) too, it's amazing!*
+## <samp>*Oh! I'm currently learning on [Boot.dev](https://www.boot.dev/u/tsuyoshi64) too, it's amazing!*</samp>
 
 <p align="center">
   <img src="https://api.boot.dev/v1/users/public/f9bb5e01-d5fd-4b75-bb77-59d38d26249e/thumbnail" alt="Boot.dev Progress" />
@@ -180,14 +183,14 @@
 </div>
 
 <details>
-  <summary><b>&nbsp;Hmm, someone said they've heard the <i>Tsuyoshi</i> name before...</b></summary>
+  <summary><samp><b>&nbsp;Hmm, someone said they've heard the <i>Tsuyoshi</i> name before...</b></samp></summary>
   <br/>
   <div align="center">
-    <em>Yes. I am Tsurumaru Tsuyoshi from Umamusume: Pretty Derby.</em>
+    <samp><em>Yes. I am Tsurumaru Tsuyoshi from Umamusume: Pretty Derby.</em></samp>
     <br/>
-    <em>*Everyone shocked sfx*</em>
+    <samp><em>*Everyone shocked sfx*</em></samp>
     <br/>
-    <em>....Anyway, thank u for visiting this profile ^^</em>
+    <samp><em>....Anyway, thank u for visiting this profile ^^</em></samp>
   </div>
   <br/>
 </details>
