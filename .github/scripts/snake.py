@@ -93,7 +93,7 @@ def build_defs() -> str:
 {_glow("glow-l2", L2, 1.5, 1, opacity=0.65)}
 {_glow("glow-l3", L3, 2.5, 2, opacity=0.75)}
 {_glow("glow-l4", L4, 4.0, 3, opacity=0.90)}
-{_glow("glow-snake", SNAKE, 5.0, 4, opacity=1.0)}
+{_glow("glow-snake", SNAKE, 3.0, 2, opacity=1.0)}
   <pattern id="dot-grid" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
     <circle cx="7" cy="7" r="0.55" fill="#1e2d3d" opacity="0.8"/>
   </pattern>
