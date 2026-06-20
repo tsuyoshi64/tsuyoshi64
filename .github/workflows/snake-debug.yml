@@ -37,6 +37,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # ── TEMPORARY DEBUG STEP — remove once cell-detection bug is fixed ──────
+      - name: Debug - print raw SVG structure
+        run: |
+          echo "=== File size ==="
+          wc -c dist/snake-raw.svg
+          echo "=== First 3000 chars ==="
+          head -c 3000 dist/snake-raw.svg
+          echo ""
+          echo "=== Sample rect tags (first 5) ==="
+          grep -o '<rect[^>]*>' dist/snake-raw.svg | head -5
+
       # ── 2. Fetch the real total-contributions count via GraphQL ─────────────
       # snk does not expose this number — we query it ourselves so the overlay
       # can show an accurate "X contributions in the last year" line instead
