@@ -1,0 +1,41 @@
+<svg width="900" height="320" viewBox="0 0 900 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @font-face {
+      font-family: 'JetBrainsMono Nerd Font';
+      src: url('https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/JetBrainsMono/Ligatures/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete.ttf');
+    }
+    .header { font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace; font-weight: bold; font-size: 22px; fill: #ffffff; }
+    .item { font-family: 'JetBrainsMono Nerd Font', 'JetBrains Mono', monospace; font-size: 16px; fill: #c9d1d9; }
+  </style>
+  <defs>
+    <linearGradient id="grad-plan" x1="0" y1="160" x2="900" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.5" stop-color="#BF00FF"/>
+      <stop offset="1" stop-color="#FF00FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="896" height="316" rx="15" stroke="url(#grad-plan)" stroke-width="3"/>
+  <rect x="4" y="4" width="892" height="312" rx="13" fill="#0D1117"/>
+  
+  <line x1="450" y1="20" x2="450" y2="300" stroke="#2D333B" stroke-width="2"/>
+  
+  <text x="40" y="50" class="header">✅ Doing</text>
+  <circle cx="50" cy="90" r="4" fill="#00F5FF"/>
+  <text x="65" y="95" class="item">Learning Python and Go aggressively</text>
+  <circle cx="50" cy="130" r="4" fill="#00F5FF"/>
+  <text x="65" y="135" class="item">Building projects &amp; will be using AI but not to create *slop*.</text>
+  <circle cx="50" cy="170" r="4" fill="#00F5FF"/>
+  <text x="65" y="175" class="item">Every project: structured · safe · fun</text>
+  <circle cx="50" cy="210" r="4" fill="#00F5FF"/>
+  <text x="65" y="215" class="item">Learning on Boot.dev alongside real projects</text>
+  <circle cx="50" cy="250" r="4" fill="#00F5FF"/>
+  <text x="65" y="255" class="item">Learning Cybersecurity</text>
+
+  <text x="490" y="50" class="header">🚫 Avoiding</text>
+  <circle cx="500" cy="90" r="4" fill="#FF00FF"/>
+  <text x="515" y="95" class="item">Tutorial hell</text>
+  <circle cx="500" cy="130" r="4" fill="#FF00FF"/>
+  <text x="515" y="135" class="item">Skipping the fundamentals</text>
+  <circle cx="500" cy="170" r="4" fill="#FF00FF"/>
+  <text x="515" y="175" class="item">Shipping code I don't understand</text>
+</svg>
