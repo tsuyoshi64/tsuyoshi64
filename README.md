@@ -66,6 +66,7 @@
 </div>
 
 <div align="center"><p><samp>Yes I'm using <i>Windows</i>, with <i>WSL 2</i> for dev (´-ω-`).</samp></p></div>
+<div align="center"><p><samp><i>P.S.</i> I can't find the <b>Zed</b> icon TT.</samp></p></div>
 
 
 <details>
