@@ -68,7 +68,7 @@ FONT_STACK = "'JetBrains Mono', Consolas, 'Fira Code', monospace"
 # out with its own gradient treatment.
 BORDER_COLOR = "#bf00ff"
 
-CARD_W = 680
+CARD_W = 690
 ROW_H = 64  # was 34; +10px gives the new per-row bar room without crowding the next row
 HEADER_H = 56
 PAD_X = 24
