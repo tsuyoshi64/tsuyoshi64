@@ -159,7 +159,7 @@ def compute_percentages(totals: dict[str, dict]) -> list[tuple[str, float, str]]
 
 
 def render_svg(rows: list[tuple[str, float, str]]) -> str:
-    card_h = HEADER_H + PAD_TOP + len(rows) * ROW_H + PAD_BOTTOM
+    card_h = HEADER_H + PAD_TOP + len(rows) * ROW_H + PAD_BOTTOM + 10
 
     # Slim proportional tick-bar per row (distinct from the old compact-card
     # bar that was removed for being redundant with the pie chart): the pie
