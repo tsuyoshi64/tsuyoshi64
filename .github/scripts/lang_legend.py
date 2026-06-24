@@ -69,7 +69,7 @@ FONT_STACK = "'JetBrains Mono', Consolas, 'Fira Code', monospace"
 BORDER_COLOR = "#bf00ff"
 
 CARD_W = 520
-ROW_H = 44  # was 34; +10px gives the new per-row bar room without crowding the next row
+ROW_H = 54  # was 34; +10px gives the new per-row bar room without crowding the next row
 HEADER_H = 56
 PAD_X = 24
 PAD_TOP = 18
@@ -159,7 +159,7 @@ def compute_percentages(totals: dict[str, dict]) -> list[tuple[str, float, str]]
 
 
 def render_svg(rows: list[tuple[str, float, str]]) -> str:
-    card_h = HEADER_H + PAD_TOP + len(rows) * ROW_H + PAD_BOTTOM + 10
+    card_h = HEADER_H + PAD_TOP + len(rows) * ROW_H + PAD_BOTTOM
 
     # Slim proportional tick-bar per row (distinct from the old compact-card
     # bar that was removed for being redundant with the pie chart): the pie
