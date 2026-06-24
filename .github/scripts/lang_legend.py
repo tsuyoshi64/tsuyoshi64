@@ -189,8 +189,8 @@ def render_svg(rows: list[tuple[str, float, str]]) -> str:
 
     return f'''<svg width="{CARD_W}" height="{card_h:.0f}" viewBox="0 0 {CARD_W} {card_h:.0f}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .lang-name  {{ font-family: {FONT_STACK}; font-size: 18px; fill: {TEXT_MAIN}; }}
-    .lang-pct   {{ font-family: {FONT_STACK}; font-weight: bold; font-size: 13px; fill: {TEXT_BOLD}; }}
+    .lang-name  {{ font-family: {FONT_STACK}; font-size: 24px; fill: {TEXT_MAIN}; }}
+    .lang-pct   {{ font-family: {FONT_STACK}; font-weight: bold; font-size: 24px; fill: {TEXT_BOLD}; }}
   </style>
 
   <!-- Flat solid border (BORDER_COLOR), matching the surrounding
