@@ -68,8 +68,8 @@ FONT_STACK = "'JetBrains Mono', Consolas, 'Fira Code', monospace"
 # out with its own gradient treatment.
 BORDER_COLOR = "#bf00ff"
 
-CARD_W = 520
-ROW_H = 54  # was 34; +10px gives the new per-row bar room without crowding the next row
+CARD_W = 580
+ROW_H = 44  # was 34; +10px gives the new per-row bar room without crowding the next row
 HEADER_H = 56
 PAD_X = 24
 PAD_TOP = 18
@@ -159,7 +159,7 @@ def compute_percentages(totals: dict[str, dict]) -> list[tuple[str, float, str]]
 
 
 def render_svg(rows: list[tuple[str, float, str]]) -> str:
-    card_h = HEADER_H + PAD_TOP + len(rows) * ROW_H + PAD_BOTTOM
+    card_h = 15 + (PAD_TOP + len(rows) * ROW_H + PAD_BOTTOM)
 
     # Slim proportional tick-bar per row (distinct from the old compact-card
     # bar that was removed for being redundant with the pie chart): the pie
@@ -172,7 +172,7 @@ def render_svg(rows: list[tuple[str, float, str]]) -> str:
     max_pct = max(pct for _, pct, _ in rows) if rows else 1.0
 
     body_rows = []
-    y = HEADER_H + PAD_TOP
+    y = PAD_TOP
     for name, pct, color in rows:
         dot_cy = y + ROW_H / 2 - 10
         text_y = y + ROW_H / 2 - 5
@@ -189,7 +189,6 @@ def render_svg(rows: list[tuple[str, float, str]]) -> str:
 
     return f'''<svg width="{CARD_W}" height="{card_h:.0f}" viewBox="0 0 {CARD_W} {card_h:.0f}" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .title-text {{ font-family: {FONT_STACK}; font-weight: bold; font-size: 16px; fill: {TEXT_BOLD}; }}
     .lang-name  {{ font-family: {FONT_STACK}; font-size: 13px; fill: {TEXT_MAIN}; }}
     .lang-pct   {{ font-family: {FONT_STACK}; font-weight: bold; font-size: 13px; fill: {TEXT_BOLD}; }}
   </style>
@@ -202,14 +201,10 @@ def render_svg(rows: list[tuple[str, float, str]]) -> str:
        (src/common/Card.js: border_radius defaults to 4.5, and the border
        <rect> sets no stroke-width attribute at all, which means it falls
        back to the SVG default of 1 — not the rx=14/stroke-width=2 guessed
-       here previously). -->
+       here previously). Header band, divider, and title were removed on
+       request — card now starts directly at the language rows. -->
   <rect x="2" y="2" width="{CARD_W - 4}" height="{card_h - 4:.0f}" rx="4.5" stroke="{BORDER_COLOR}" stroke-width="1"/>
   <rect x="3" y="3" width="{CARD_W - 6}" height="{card_h - 6:.0f}" rx="3.5" fill="{BG}"/>
-  <rect x="3" y="3" width="{CARD_W - 6}" height="{HEADER_H - 3}" rx="3.5" fill="{PANEL}"/>
-  <rect x="3" y="{HEADER_H - 8}" width="{CARD_W - 6}" height="8" fill="{PANEL}"/>
-  <line x1="3" y1="{HEADER_H}" x2="{CARD_W - 3}" y2="{HEADER_H}" stroke="{DIVIDER}" stroke-width="1"/>
-
-  <text x="{PAD_X}" y="{HEADER_H / 2 + 6:.0f}" class="title-text">Most Used Languages</text>
 
 {chr(10).join(body_rows)}
 </svg>
