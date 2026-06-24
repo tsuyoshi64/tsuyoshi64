@@ -90,13 +90,13 @@
 </div>
 
 <div align="center">
-  <table>
+  <table width="900">
     <tr>
-      <td>
-        <img height="195" src="https://github-readme-stats.vercel.app/api?username=tsuyoshi64&show_icons=true&bg_color=0d1117&title_color=00f5ff&icon_color=ff00ff&text_color=c9d1d9&border_color=bf00ff&rank_icon=github" alt="GitHub Stats" />
+      <td width="50%">
+        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=tsuyoshi64&show_icons=true&bg_color=0d1117&title_color=00f5ff&icon_color=ff00ff&text_color=c9d1d9&border_color=bf00ff&rank_icon=github" alt="GitHub Stats" />
       </td>
-      <td>
-        <img height="195" src="https://streak-stats.demolab.com/?user=tsuyoshi64&background=0d1117&border=bf00ff&stroke=bf00ff&ring=ff00ff&fire=ff00ff&currStreakNum=00f5ff&sideNums=00f5ff&currStreakLabel=bf00ff&sideLabels=bf00ff&dates=8b949e" alt="GitHub Streak" />
+      <td width="50%">
+        <img width="100%" src="https://streak-stats.demolab.com/?user=tsuyoshi64&background=0d1117&border=bf00ff&stroke=bf00ff&ring=ff00ff&fire=ff00ff&currStreakNum=00f5ff&sideNums=00f5ff&currStreakLabel=bf00ff&sideLabels=bf00ff&dates=8b949e" alt="GitHub Streak" />
       </td>
     </tr>
   </table>
@@ -105,13 +105,13 @@
 <br/>
 
 <div align="center">
-  <table>
+  <table width="1200">
     <tr>
       <td>
-        <img height="220" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tsuyoshi64&layout=pie&bg_color=0d1117&title_color=00f5ff&text_color=c9d1d9&border_color=bf00ff" alt="Top Languages Pie" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tsuyoshi64&layout=pie&bg_color=0d1117&title_color=00f5ff&text_color=c9d1d9&border_color=bf00ff" alt="Top Languages Pie" />
       </td>
       <td>
-        <img height="220" src="https://raw.githubusercontent.com/tsuyoshi64/tsuyoshi64/output-langs/top-langs.svg" alt="Top Languages Detailed" />
+        <img src="https://raw.githubusercontent.com/tsuyoshi64/tsuyoshi64/output-langs/top-langs.svg" alt="Top Languages Detailed" />
       </td>
     </tr>
   </table>
