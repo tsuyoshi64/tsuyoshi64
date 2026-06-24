@@ -105,7 +105,16 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tsuyoshi64&layout=compact&bg_color=0d1117&title_color=00f5ff&text_color=c9d1d9&border_color=bf00ff" alt="Top Languages" />
+  <table>
+    <tr>
+      <td>
+        <img height="220" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tsuyoshi64&layout=pie&bg_color=0d1117&title_color=00f5ff&text_color=c9d1d9&border_color=bf00ff" alt="Top Languages Pie" />
+      </td>
+      <td>
+        <img height="220" src="https://raw.githubusercontent.com/tsuyoshi64/tsuyoshi64/output-langs/top-langs.svg" alt="Top Languages Detailed" />
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br/>
