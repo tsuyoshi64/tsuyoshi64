@@ -62,8 +62,14 @@ TEXT_MAIN = "#c9d1d9"
 TEXT_BOLD = "#ffffff"
 FONT_STACK = "'JetBrains Mono', Consolas, 'Fira Code', monospace"
 
+# Matches border_color=bf00ff used by the github-readme-stats cards
+# directly above this one in the README (GitHub Stats, Streak Stats), so
+# this hand-built card visually belongs to the same row instead of standing
+# out with its own gradient treatment.
+BORDER_COLOR = "#bf00ff"
+
 CARD_W = 480
-ROW_H = 34
+ROW_H = 44  # was 34; +10px gives the new per-row bar room without crowding the next row
 HEADER_H = 56
 PAD_X = 24
 PAD_TOP = 18
@@ -155,15 +161,29 @@ def compute_percentages(totals: dict[str, dict]) -> list[tuple[str, float, str]]
 def render_svg(rows: list[tuple[str, float, str]]) -> str:
     card_h = HEADER_H + PAD_TOP + len(rows) * ROW_H + PAD_BOTTOM
 
+    # Slim proportional tick-bar per row (distinct from the old compact-card
+    # bar that was removed for being redundant with the pie chart): the pie
+    # shows relative share at a glance, this shows each language's absolute
+    # scale at a glance, sitting quietly under the name/dot rather than
+    # competing with them for attention. Track length matches the dot+name
+    # column width (CARD_W - PAD_X*2 - 60, leaving room for the % text).
+    bar_max_w = CARD_W - (PAD_X * 2) - 60
+    bar_h = 4
+    max_pct = max(pct for _, pct, _ in rows) if rows else 1.0
+
     body_rows = []
     y = HEADER_H + PAD_TOP
     for name, pct, color in rows:
-        dot_cy = y + ROW_H / 2 - 6
-        text_y = y + ROW_H / 2 - 1
+        dot_cy = y + ROW_H / 2 - 10
+        text_y = y + ROW_H / 2 - 5
+        bar_y = y + ROW_H / 2 + 8
+        bar_w = max((pct / max_pct) * bar_max_w, 3)  # floor so trace languages stay visible
         body_rows.append(
             f'  <circle cx="{PAD_X + 6}" cy="{dot_cy:.1f}" r="6" fill="{color}"/>\n'
             f'  <text x="{PAD_X + 22}" y="{text_y:.1f}" class="lang-name">{name}</text>\n'
-            f'  <text x="{CARD_W - PAD_X}" y="{text_y:.1f}" text-anchor="end" class="lang-pct">{pct:.2f}%</text>'
+            f'  <text x="{CARD_W - PAD_X}" y="{text_y:.1f}" text-anchor="end" class="lang-pct">{pct:.2f}%</text>\n'
+            f'  <rect x="{PAD_X}" y="{bar_y:.1f}" width="{bar_max_w:.1f}" height="{bar_h}" rx="2" fill="{DIVIDER}"/>\n'
+            f'  <rect x="{PAD_X}" y="{bar_y:.1f}" width="{bar_w:.1f}" height="{bar_h}" rx="2" fill="{color}"/>'
         )
         y += ROW_H
 
@@ -173,15 +193,12 @@ def render_svg(rows: list[tuple[str, float, str]]) -> str:
     .lang-name  {{ font-family: {FONT_STACK}; font-size: 13px; fill: {TEXT_MAIN}; }}
     .lang-pct   {{ font-family: {FONT_STACK}; font-weight: bold; font-size: 13px; fill: {TEXT_BOLD}; }}
   </style>
-  <defs>
-    <linearGradient id="border-grad" x1="0" y1="{card_h:.0f}" x2="{CARD_W}" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#00F5FF"/>
-      <stop offset="0.5" stop-color="#BF00FF"/>
-      <stop offset="1" stop-color="#FF00FF"/>
-    </linearGradient>
-  </defs>
 
-  <rect x="2" y="2" width="{CARD_W - 4}" height="{card_h - 4:.0f}" rx="14" stroke="url(#border-grad)" stroke-width="2"/>
+  <!-- Flat solid border (BORDER_COLOR), matching the surrounding
+       github-readme-stats cards' border_color=bf00ff param exactly —
+       NOT a gradient, so this card visually belongs to the same row as
+       the GitHub Stats / Streak cards above it. -->
+  <rect x="2" y="2" width="{CARD_W - 4}" height="{card_h - 4:.0f}" rx="14" stroke="{BORDER_COLOR}" stroke-width="2"/>
   <rect x="4" y="4" width="{CARD_W - 8}" height="{card_h - 8:.0f}" rx="12" fill="{BG}"/>
   <rect x="4" y="4" width="{CARD_W - 8}" height="{HEADER_H - 4}" rx="12" fill="{PANEL}"/>
   <rect x="4" y="{HEADER_H - 16}" width="{CARD_W - 8}" height="16" fill="{PANEL}"/>
