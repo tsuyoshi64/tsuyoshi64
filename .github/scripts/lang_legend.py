@@ -197,12 +197,17 @@ def render_svg(rows: list[tuple[str, float, str]]) -> str:
   <!-- Flat solid border (BORDER_COLOR), matching the surrounding
        github-readme-stats cards' border_color=bf00ff param exactly —
        NOT a gradient, so this card visually belongs to the same row as
-       the GitHub Stats / Streak cards above it. -->
-  <rect x="2" y="2" width="{CARD_W - 4}" height="{card_h - 4:.0f}" rx="14" stroke="{BORDER_COLOR}" stroke-width="2"/>
-  <rect x="4" y="4" width="{CARD_W - 8}" height="{card_h - 8:.0f}" rx="12" fill="{BG}"/>
-  <rect x="4" y="4" width="{CARD_W - 8}" height="{HEADER_H - 4}" rx="12" fill="{PANEL}"/>
-  <rect x="4" y="{HEADER_H - 16}" width="{CARD_W - 8}" height="16" fill="{PANEL}"/>
-  <line x1="4" y1="{HEADER_H}" x2="{CARD_W - 4}" y2="{HEADER_H}" stroke="{DIVIDER}" stroke-width="2"/>
+       the GitHub Stats / Streak cards above it. rx=4.5 and stroke-width=1
+       are the ACTUAL defaults read from github-readme-stats' own source
+       (src/common/Card.js: border_radius defaults to 4.5, and the border
+       <rect> sets no stroke-width attribute at all, which means it falls
+       back to the SVG default of 1 — not the rx=14/stroke-width=2 guessed
+       here previously). -->
+  <rect x="2" y="2" width="{CARD_W - 4}" height="{card_h - 4:.0f}" rx="4.5" stroke="{BORDER_COLOR}" stroke-width="1"/>
+  <rect x="3" y="3" width="{CARD_W - 6}" height="{card_h - 6:.0f}" rx="3.5" fill="{BG}"/>
+  <rect x="3" y="3" width="{CARD_W - 6}" height="{HEADER_H - 3}" rx="3.5" fill="{PANEL}"/>
+  <rect x="3" y="{HEADER_H - 8}" width="{CARD_W - 6}" height="8" fill="{PANEL}"/>
+  <line x1="3" y1="{HEADER_H}" x2="{CARD_W - 3}" y2="{HEADER_H}" stroke="{DIVIDER}" stroke-width="1"/>
 
   <text x="{PAD_X}" y="{HEADER_H / 2 + 6:.0f}" class="title-text">Most Used Languages</text>
 
