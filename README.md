@@ -93,7 +93,7 @@
   <table width="900">
     <tr>
       <td width="50%">
-        <img width="100%" src="https://github-readme-stats.vercel.app/api?username=tsuyoshi64&show_icons=true&bg_color=0d1117&title_color=00f5ff&icon_color=ff00ff&text_color=c9d1d9&border_color=bf00ff&rank_icon=github" alt="GitHub Stats" />
+        <img width="100%" src="https://github-readme-stats-tsu64.vercel.app/api?username=tsuyoshi64&show_icons=true&bg_color=0d1117&title_color=00f5ff&icon_color=ff00ff&text_color=c9d1d9&border_color=bf00ff&rank_icon=github" alt="GitHub Stats" />
       </td>
       <td width="50%">
         <img width="100%" src="https://github-readme-streak-stats-rose-five.vercel.app/?user=tsuyoshi64&background=0d1117&border=bf00ff&stroke=bf00ff&ring=ff00ff&fire=ff00ff&currStreakNum=00f5ff&sideNums=00f5ff&currStreakLabel=bf00ff&sideLabels=bf00ff&dates=8b949e" alt="GitHub Streak" />
@@ -108,7 +108,7 @@
   <table width="1200">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tsuyoshi64&layout=pie&bg_color=0d1117&title_color=00f5ff&text_color=c9d1d9&border_color=bf00ff" alt="Top Languages Pie" />
+        <img src="https://github-readme-stats-tsu64.vercel.app/api/top-langs/?username=tsuyoshi64&layout=pie&bg_color=0d1117&title_color=00f5ff&text_color=c9d1d9&border_color=bf00ff" alt="Top Languages Pie" />
       </td>
       <td>
         <img src="https://raw.githubusercontent.com/tsuyoshi64/tsuyoshi64/output-langs/top-langs.svg" alt="Top Languages Detailed" />
