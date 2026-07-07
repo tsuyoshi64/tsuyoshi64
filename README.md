@@ -96,7 +96,7 @@
         <img width="100%" src="https://github-readme-stats.vercel.app/api?username=tsuyoshi64&show_icons=true&bg_color=0d1117&title_color=00f5ff&icon_color=ff00ff&text_color=c9d1d9&border_color=bf00ff&rank_icon=github" alt="GitHub Stats" />
       </td>
       <td width="50%">
-        <img width="100%" src="https://streak-stats.demolab.com/?user=tsuyoshi64&background=0d1117&border=bf00ff&stroke=bf00ff&ring=ff00ff&fire=ff00ff&currStreakNum=00f5ff&sideNums=00f5ff&currStreakLabel=bf00ff&sideLabels=bf00ff&dates=8b949e" alt="GitHub Streak" />
+        <img width="100%" src="https://github-readme-streak-stats-rose-five.vercel.app/?user=tsuyoshi64&background=0d1117&border=bf00ff&stroke=bf00ff&ring=ff00ff&fire=ff00ff&currStreakNum=00f5ff&sideNums=00f5ff&currStreakLabel=bf00ff&sideLabels=bf00ff&dates=8b949e" alt="GitHub Streak" />
       </td>
     </tr>
   </table>
