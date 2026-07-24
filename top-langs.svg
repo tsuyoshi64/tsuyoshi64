@@ -1,0 +1,40 @@
+<svg width="790" height="304" viewBox="0 0 790 304" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .lang-name  { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-size: 21px; fill: #c9d1d9; }
+    .lang-pct   { font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace; font-weight: bold; font-size: 21px; fill: #ffffff; }
+  </style>
+
+  <!-- Flat solid border (BORDER_COLOR), matching the surrounding
+       github-readme-stats cards' border_color=bf00ff param exactly —
+       NOT a gradient, so this card visually belongs to the same row as
+       the GitHub Stats / Streak cards above it. rx=4.5 and stroke-width=1
+       are the ACTUAL defaults read from github-readme-stats' own source
+       (src/common/Card.js: border_radius defaults to 4.5, and the border
+       <rect> sets no stroke-width attribute at all, which means it falls
+       back to the SVG default of 1 — not the rx=14/stroke-width=2 guessed
+       here previously). Header band, divider, and title were removed on
+       request — card now starts directly at the language rows. -->
+  <rect x="2" y="2" width="786" height="300" rx="4.5" stroke="#bf00ff" stroke-width="1"/>
+  <rect x="3" y="3" width="784" height="298" rx="3.5" fill="#0D1117"/>
+
+  <circle cx="30" cy="46.0" r="6" fill="#3572A5"/>
+  <text x="46" y="51.0" class="lang-name">Python</text>
+  <text x="766" y="51.0" text-anchor="end" class="lang-pct">97.93%</text>
+  <rect x="24" y="64.0" width="682.0" height="4" rx="2" fill="#2D333B"/>
+  <rect x="24" y="64.0" width="682.0" height="4" rx="2" fill="#3572A5"/>
+  <circle cx="30" cy="110.0" r="6" fill="#663399"/>
+  <text x="46" y="115.0" class="lang-name">CSS</text>
+  <text x="766" y="115.0" text-anchor="end" class="lang-pct">1.63%</text>
+  <rect x="24" y="128.0" width="682.0" height="4" rx="2" fill="#2D333B"/>
+  <rect x="24" y="128.0" width="11.4" height="4" rx="2" fill="#663399"/>
+  <circle cx="30" cy="174.0" r="6" fill="#e34c26"/>
+  <text x="46" y="179.0" class="lang-name">HTML</text>
+  <text x="766" y="179.0" text-anchor="end" class="lang-pct">0.28%</text>
+  <rect x="24" y="192.0" width="682.0" height="4" rx="2" fill="#2D333B"/>
+  <rect x="24" y="192.0" width="3.0" height="4" rx="2" fill="#e34c26"/>
+  <circle cx="30" cy="238.0" r="6" fill="#89e051"/>
+  <text x="46" y="243.0" class="lang-name">Shell</text>
+  <text x="766" y="243.0" text-anchor="end" class="lang-pct">0.16%</text>
+  <rect x="24" y="256.0" width="682.0" height="4" rx="2" fill="#2D333B"/>
+  <rect x="24" y="256.0" width="3.0" height="4" rx="2" fill="#89e051"/>
+</svg>
